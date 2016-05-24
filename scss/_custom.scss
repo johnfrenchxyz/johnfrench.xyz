@@ -1,0 +1,68 @@
+/*
+   johnfrench.xyz
+   Custom Styles
+*/
+
+// Font Import
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+// Color Variables:
+$jf-red: rgba(163, 11, 55, 0.71);
+$jf-light-red: #BD6B73;
+$jf-purple: #BBB6DF;
+$jf-light-purple: #C6C8EE;
+$jf-white: #eeeeee;
+$jf-dark-gray: #444444;
+$jf-light-gray: lighten($jf-dark-gray, 30%);
+$jf-bg: #F9F9F9;
+
+// Typography
+//-----------
+h1 { color: $jf-light-gray; font-size: rem-calc(18); }
+
+h1, h2, h3, h4, h5, h6, p {
+   font-family: Montserrat, Helvetica, sans-serif;
+}
+
+
+// Template
+//---------
+body {
+   background: $jf-bg;
+}
+
+header {
+   background: $jf-bg;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 1em;
+   box-shadow:  0 6px 6px -6px $jf-light-gray;
+   h1 { float: left; line-height: 1em; }
+   .hamburger-icon {
+      float: right;
+      line-height: 1em;
+      color: $jf-light-gray;
+   }
+}
+
+main { margin-top: 5em; }
+
+.call-to-action {
+   margin-top: 50px;
+   text-align: center;
+
+   h2 {
+      font-size: rem-calc(48);
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: -15px;
+   }
+   hr {
+      width: 500px;
+      height: 15px;
+      border: 0;
+      box-shadow:  0 6px 6px -6px $jf-light-gray;
+   }
+}
