@@ -3920,10 +3920,11 @@ header {
     color: #919191; }
 
 nav {
+  z-index: 10;
+  display: none;
   position: fixed;
   top: 0;
   margin-top: 58px;
-  z-index: 10;
   background: #efefef;
   width: 100%;
   height: auto;
