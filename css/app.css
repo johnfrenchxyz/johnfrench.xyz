@@ -6,6 +6,7 @@
  * Licensed under MIT Open Source
  */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
   transition-timing-function: linear; }
@@ -3905,15 +3906,55 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  margin-bottom: 0px;
   padding: 1em;
-  box-shadow: 0 6px 6px -6px #919191; }
+  box-shadow: 0 6px 6px -6px #919191;
+  z-index: 20; }
   header h1 {
     float: left;
+    margin-left: 2em;
     line-height: 1em; }
   header .hamburger-icon {
-    float: right;
+    float: left;
     line-height: 1em;
     color: #919191; }
+
+nav {
+  position: fixed;
+  top: 0;
+  margin-top: 58px;
+  z-index: 10;
+  background: #efefef;
+  width: 100%;
+  height: auto;
+  border-bottom: solid 1px #d0d0d0; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: 200ms ease; }
+    nav ul li {
+      float: left; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        nav ul li {
+          float: none; } }
+    nav ul li a {
+      font-family: Nunito, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.75rem;
+      color: #444444;
+      display: block;
+      text-align: center;
+      padding: 1.5em;
+      transition: 250ms ease; }
+      nav ul li a i {
+        display: block !important;
+        text-align: center; }
+    nav ul li a:hover {
+      background: rgba(163, 11, 55, 0.71);
+      color: white; }
 
 main {
   margin-top: 5em; }
