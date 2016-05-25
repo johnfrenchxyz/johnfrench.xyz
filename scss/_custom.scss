@@ -51,10 +51,11 @@ header {
 }
 
 nav {
+   z-index: 10;
+   display: none;
    position: fixed;
    top: 0;
    margin-top: 58px;
-   z-index: 10;
    background: lighten($jf-light-gray, 37%);
    width: 100%;
    height: auto;
