@@ -3962,7 +3962,8 @@ nav {
 main {
   margin-top: 0em;
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  overflow: hidden; }
   main #homeBG {
     background-image: url("../img/bg-full.jpg");
     background-size: cover;
