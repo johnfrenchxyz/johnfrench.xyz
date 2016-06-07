@@ -3929,7 +3929,8 @@ nav {
   background: #efefef;
   width: 100%;
   height: auto;
-  border-bottom: solid 1px #d0d0d0; }
+  border-bottom: solid 1px #d0d0d0;
+  overflow: scroll; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -3955,22 +3956,15 @@ nav {
         display: block !important;
         text-align: center; }
     nav ul li a:hover {
-      background: rgba(163, 11, 55, 0.71);
-      color: white; }
+      background: #444444;
+      color: #efefef; }
 
 main {
-  margin-top: 5em; }
-
-.call-to-action {
-  margin-top: 50px;
-  text-align: center; }
-  .call-to-action h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-bottom: -15px; }
-  .call-to-action hr {
-    width: 500px;
-    height: 15px;
-    border: 0;
-    box-shadow: 0 6px 6px -6px #919191; }
+  margin-top: 0em;
+  height: 100vh;
+  width: 100vw; }
+  main #homeBG {
+    background-image: url("../img/bg-full.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat; }

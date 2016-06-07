@@ -61,6 +61,7 @@ nav {
    width: 100%;
    height: auto;
    border-bottom: solid 1px lighten($jf-light-gray, 25%);
+   overflow: scroll;
    ul {
       list-style-type: none;
       margin: 0;
@@ -81,26 +82,23 @@ nav {
          transition: 250ms ease;
          i { display: block !important; text-align: center; }
       }
-      li a:hover { background: $jf-red; color: white; }
+      li a:hover { background: $jf-dark-gray; color: lighten($jf-light-gray, 37%); }
    }
 }
 
-main { margin-top: 5em; }
-
-.call-to-action {
-   margin-top: 50px;
-   text-align: center;
-
-   h2 {
-      font-size: rem-calc(48);
-      text-transform: uppercase;
-      letter-spacing: 4px;
-      margin-bottom: -15px;
-   }
-   hr {
-      width: 500px;
-      height: 15px;
-      border: 0;
-      box-shadow:  0 6px 6px -6px $jf-light-gray;
+main {
+   margin-top: 0em;
+   height: 100vh;
+   width: 100vw;
+   #homeBG {
+      // position: fixed;
+      background-image: url('../img/bg-full.jpg');
+      background-size: cover;
+      height: 100%;
+      background-repeat: no-repeat;
+      // @include breakpoint (small only) {
+      //    height: auto;
+      //    width: 100vw;
+      // }
    }
 }
