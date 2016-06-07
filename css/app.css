@@ -3912,11 +3912,12 @@ header {
   z-index: 20; }
   header h1 {
     float: left;
-    margin-left: 2em;
-    line-height: 1em; }
+    margin-left: 1em;
+    vertical-align: middle; }
   header .hamburger-icon {
+    margin-top: 2px;
     float: left;
-    line-height: 1em;
+    vertical-align: middle;
     color: #919191; }
 
 nav {

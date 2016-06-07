@@ -42,10 +42,11 @@ header {
    padding: 1em;
    box-shadow:  0 6px 6px -6px $jf-light-gray;
    z-index: 20;
-   h1 { float: left; margin-left: 2em; line-height: 1em; }
+   h1 { float: left; margin-left: 1em; vertical-align: middle; }
    .hamburger-icon {
+      margin-top: 2px;
       float: left;
-      line-height: 1em;
+      vertical-align: middle;
       color: $jf-light-gray;
    }
 }
