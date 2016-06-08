@@ -7,6 +7,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Nunito:300);
+@import url("../fonts/foundation-icons/foundation-icons.css");
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
   transition-timing-function: linear; }
@@ -3903,18 +3904,6 @@ h6,
 p {
   font-family: Montserrat, Helvetica, sans-serif; }
 
-body {
-  background-size: cover; }
-  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-    body {
-      background-image: url("../img/bg-small.jpg"); } }
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    body {
-      background-image: url("../img/bg-medium.jpg"); } }
-  @media screen and (min-width: 64em) {
-    body {
-      background-image: url("../img/bg-full.jpg"); } }
-
 header {
   background: #F9F9F9;
   width: 100%;
@@ -3974,7 +3963,12 @@ nav {
       color: #efefef; }
 
 main {
-  padding-top: 5em; }
+  padding-top: 5em;
+  min-height: 100%;
+  margin-bottom: -80px; }
+  main:after {
+    content: "";
+    display: block; }
 
 .call-to-action h2 {
   padding-top: 10%;
@@ -4053,3 +4047,116 @@ main {
   @media screen and (min-width: 40em) {
     #contactMe {
       margin-top: 7em; } }
+
+footer, main:after {
+  height: 80px; }
+
+footer {
+  margin-top: 2em;
+  background: #efefef; }
+  footer a {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444444;
+    display: inline-block;
+    height: 80px;
+    padding: 30px;
+    transition: 250ms ease; }
+    footer a:hover {
+      background: #444444;
+      color: #efefef; }
+
+.portfolio-header {
+  background: #ed4f4f;
+  margin-top: -20px;
+  margin-bottom: 2em;
+  color: #eeeeee;
+  text-align: center; }
+  .portfolio-header i {
+    padding-top: 7%;
+    font-size: 3rem;
+    transition: 250ms ease; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .portfolio-header i {
+        font-size: 1.5rem; } }
+  .portfolio-header h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 250ms ease; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .portfolio-header h2 {
+        font-size: 1.5rem; } }
+
+.portfolio-section {
+  transition: 250ms ease;
+  width: 100%; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .portfolio-section {
+      text-align: center; } }
+  .portfolio-section .title {
+    color: #ed4f4f;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 250ms ease; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .portfolio-section .title {
+        font-size: 1.125rem; } }
+  .portfolio-section .portfolio-item {
+    width: 100%; }
+    .portfolio-section .portfolio-item .portfolio-item-header {
+      width: 100%;
+      margin-top: 1em;
+      background: #efefef;
+      padding: 1em;
+      color: #444444;
+      display: inline-block;
+      font-weight: bold;
+      transition: 250ms ease; }
+      .portfolio-section .portfolio-item .portfolio-item-header i {
+        float: right; }
+      .portfolio-section .portfolio-item .portfolio-item-header:hover {
+        background: #444444;
+        color: #efefef; }
+    .portfolio-section .portfolio-item .portfolio-item-body {
+      display: none; }
+    .portfolio-section .portfolio-item .icons {
+      width: 100%; }
+      .portfolio-section .portfolio-item .icons .github {
+        text-align: center;
+        background: #e2e2e2;
+        width: 50%;
+        float: left;
+        position: inline-block;
+        transition: 250ms ease;
+        height: 50px;
+        vertical-align: middle;
+        color: #ed4f4f; }
+        .portfolio-section .portfolio-item .icons .github i {
+          font-size: 2.25rem;
+          vertical-align: middle; }
+        .portfolio-section .portfolio-item .icons .github:hover {
+          background: #444444;
+          color: #efefef; }
+      .portfolio-section .portfolio-item .icons .link {
+        padding-top: 7px;
+        text-align: center;
+        background: #e2e2e2;
+        width: 50%;
+        float: left;
+        position: inline-block;
+        transition: 250ms ease;
+        height: 50px;
+        vertical-align: middle;
+        color: #ed4f4f; }
+        .portfolio-section .portfolio-item .icons .link i {
+          font-size: 2.25rem;
+          vertical-align: middle; }
+        .portfolio-section .portfolio-item .icons .link:hover {
+          background: #444444;
+          color: #efefef; }
