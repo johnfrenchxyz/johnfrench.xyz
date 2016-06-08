@@ -2,11 +2,9 @@
    johnfrench.xyz
    Custom Styles
 */
-
 // Font Import
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Nunito:300);
-
 // Color Variables:
 $jf-red: rgba(163, 11, 55, 0.71);
 $jf-light-red: #BD6B73;
@@ -15,34 +13,58 @@ $jf-light-purple: #C6C8EE;
 $jf-white: #eeeeee;
 $jf-dark-gray: #444444;
 $jf-light-gray: lighten($jf-dark-gray, 30%);
+$jf-very-light-gray: lighten($jf-light-gray, 37%);
 $jf-bg: #F9F9F9;
-
 // Typography
 //-----------
-h1 { color: $jf-light-gray; font-size: rem-calc(18); }
-
-h1, h2, h3, h4, h5, h6, p {
+h1 {
+   color: $jf-light-gray;
+   font-size: rem-calc(18);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
    font-family: Montserrat, Helvetica, sans-serif;
 }
-
-
 // Template
 //---------
 body {
-   background: $jf-bg;
+   // Background For Small
+   @include breakpoint (small only) {
+      background-image: url('../img/bg-small.jpg');
+   }
+   // Background For Medium
+   @include breakpoint (medium only) {
+      background-image: url('../img/bg-medium.jpg');
+   }
+   // Background For Medium
+   @include breakpoint (large up) {
+      background-image: url('../img/bg-full.jpg');
+   }
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
-
 header {
    background: $jf-bg;
    width: 100%;
    position: fixed;
    top: 0;
    left: 0;
-   margin-bottom: 0px;
+   margin-bottom: 0;
    padding: 1em;
-   box-shadow:  0 6px 6px -6px $jf-light-gray;
+   box-shadow: 0 6px 6px -6px $jf-light-gray;
    z-index: 20;
-   h1 { float: left; margin-left: 1em; vertical-align: middle; }
+   h1 {
+      float: left;
+      margin-left: 1em;
+      vertical-align: middle;
+   }
    .hamburger-icon {
       margin-top: 2px;
       float: left;
@@ -50,7 +72,6 @@ header {
       color: $jf-light-gray;
    }
 }
-
 nav {
    z-index: 10;
    display: none;
@@ -60,7 +81,7 @@ nav {
    background: lighten($jf-light-gray, 37%);
    width: 100%;
    height: auto;
-   border-bottom: solid 1px lighten($jf-light-gray, 25%);
+   // border-bottom: solid 1px lighten($jf-light-gray, 25%);
    overflow: scroll;
    ul {
       list-style-type: none;
@@ -69,7 +90,12 @@ nav {
       overflow: hidden;
       // padding-top: 3.5em;
       transition: 200ms ease;
-      li { float: left; @include breakpoint (small only) { float: none; } }
+      li {
+         float: left;
+         @include breakpoint (small only) {
+            float: none;
+         }
+      }
       li a {
          font-family: Nunito, sans-serif;
          text-transform: uppercase;
@@ -80,26 +106,69 @@ nav {
          text-align: center;
          padding: 1.5em;
          transition: 250ms ease;
-         i { display: block !important; text-align: center; }
+         i {
+            display: block !important;
+            text-align: center;
+         }
       }
-      li a:hover { background: $jf-dark-gray; color: lighten($jf-light-gray, 37%); }
+      li a:hover {
+         background: $jf-dark-gray;
+         color: $jf-very-light-gray;
+      }
+   }
+}
+main {
+   padding-top: 5em;
+}
+
+.call-to-action {
+   h2 {
+      padding-top: 10%;
+      font-size: rem-calc(48);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color: white;
+      text-align: center;
+      transition: 250ms ease;
+      // For Small
+      @include breakpoint (small only) { font-size: rem-calc(24); }
    }
 }
 
-main {
-   margin-top: 0em;
-   height: 100vh;
-   width: 100vw;
-   overflow: hidden;
-   #homeBG {
-      // position: fixed;
-      background-image: url('../img/bg-full.jpg');
-      background-size: cover;
-      height: 100%;
-      background-repeat: no-repeat;
-      // @include breakpoint (small only) {
-      //    height: auto;
-      //    width: 100vw;
-      // }
+@mixin block-link ($float) {
+   margin-top: 2em;
+   padding: 1em;
+   background: $jf-dark-gray;
+   color: $jf-very-light-gray;
+   display: block;
+   width: 40%;
+   transition: 250ms ease;
+   font-weight: 700;
+   text-transform: uppercase;
+   float: $float;
+   // Small Screen Size
+   @include breakpoint (small only) { width: 80%; }
+   &:hover {
+      padding-left: 2em;
+      background: $jf-very-light-gray;
+      color: $jf-dark-gray;
    }
+}
+
+#viewMyPortfolio {
+   @include block-link (left);
+}
+
+#viewMyResume {
+   @include block-link (right);
+   @include breakpoint(medium up) { margin-top: 7em; }
+   margin-top: 2em;
+}
+
+#contactMe {
+   @include block-link (left);
+   @include breakpoint(medium up) { margin-top: 7em; }
+   margin-top: 1.5em;
+
 }
