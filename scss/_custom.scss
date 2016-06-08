@@ -5,6 +5,7 @@
 // Font Import
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Nunito:300);
+@import url('../fonts/foundation-icons/foundation-icons.css');
 // Color Variables:
 $jf-red: rgba(163, 11, 55, 0.71);
 $jf-light-red: #BD6B73;
@@ -15,6 +16,8 @@ $jf-dark-gray: #444444;
 $jf-light-gray: lighten($jf-dark-gray, 30%);
 $jf-very-light-gray: lighten($jf-light-gray, 37%);
 $jf-bg: #F9F9F9;
+$jf-portfolio-color: #ed4f4f;
+
 // Typography
 //-----------
 h1 {
@@ -32,24 +35,6 @@ p {
 }
 // Template
 //---------
-body {
-   // Background For Small
-   @include breakpoint (small only) {
-      background-image: url('../img/bg-small.jpg');
-   }
-   // Background For Medium
-   @include breakpoint (medium only) {
-      background-image: url('../img/bg-medium.jpg');
-   }
-   // Background For Medium
-   @include breakpoint (large up) {
-      background-image: url('../img/bg-full.jpg');
-   }
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-}
 header {
    background: $jf-bg;
    width: 100%;
@@ -78,7 +63,7 @@ nav {
    position: fixed;
    top: 0;
    margin-top: 58px;
-   background: lighten($jf-light-gray, 37%);
+   background: $jf-very-light-gray;
    width: 100%;
    height: auto;
    // border-bottom: solid 1px lighten($jf-light-gray, 25%);
@@ -92,7 +77,7 @@ nav {
       transition: 200ms ease;
       li {
          float: left;
-         @include breakpoint (small only) {
+         @include breakpoint(small only) {
             float: none;
          }
       }
@@ -119,6 +104,12 @@ nav {
 }
 main {
    padding-top: 5em;
+   min-height: 100%;
+   margin-bottom: -80px;
+   &:after {
+      content: "";
+      display: block;
+   }
 }
 
 .call-to-action {
@@ -132,7 +123,7 @@ main {
       text-align: center;
       transition: 250ms ease;
       // For Small
-      @include breakpoint (small only) { font-size: rem-calc(24); }
+      @include breakpoint(small only) { font-size: rem-calc(24); }
    }
 }
 
@@ -148,7 +139,7 @@ main {
    text-transform: uppercase;
    float: $float;
    // Small Screen Size
-   @include breakpoint (small only) { width: 80%; }
+   @include breakpoint(small only) { width: 80%; }
    &:hover {
       padding-left: 2em;
       background: $jf-very-light-gray;
@@ -170,5 +161,113 @@ main {
    @include block-link (left);
    @include breakpoint(medium up) { margin-top: 7em; }
    margin-top: 2em;
+}
+
+footer, main:after { height: 80px; }
+
+footer {
+   margin-top: 2em;
+   background: $jf-very-light-gray;
+   a {
+      margin:0;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $jf-dark-gray;
+      display: inline-block;
+      height: 80px;
+      padding: 30px;
+      transition: 250ms ease;
+      &:hover { background: $jf-dark-gray; color: $jf-very-light-gray; }
+   }
+}
+
+// Portfolio
+//----------
+.portfolio-header {
+   background: $jf-portfolio-color;
+   margin-top: -20px;
+   margin-bottom: 2em;
+   color: $jf-white;
+   text-align: center;
+   i {
+      padding-top: 7%;
+      font-size: rem-calc(48);
+      transition: 250ms ease;
+      @include breakpoint(small only) { font-size: rem-calc(24); }
+   }
+   h2 {
+      font-size: rem-calc(48);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      transition: 250ms ease;
+      // For Small
+      @include breakpoint(small only) { font-size: rem-calc(24); }
+   }
+}
+
+.portfolio-section {
+   transition: 250ms ease;
+   width: 100%;
+   @include breakpoint(small only) { text-align: center; }
+   .title {
+      color: $jf-portfolio-color;
+      font-size: rem-calc(24);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      transition: 250ms ease;
+      @include breakpoint(small only) { font-size: rem-calc(18); }
+   }
+   .portfolio-item {
+      width: 100%;
+
+      .portfolio-item-header {
+         width: 100%;
+         margin-top: 1em;
+         background: $jf-very-light-gray;
+         padding: 1em;
+         color: $jf-dark-gray;
+         display: inline-block;
+         font-weight: bold;
+         transition: 250ms ease;
+         i { float: right; }
+         &:hover {
+            background: $jf-dark-gray;
+            color: $jf-very-light-gray;
+         }
+      }
+      .portfolio-item-body {
+         display: none;
+      }
+      .icons {
+         width: 100%;
+         @mixin icon() {
+            text-align: center;
+            background: darken($jf-very-light-gray, 5%);
+            width: 50%;
+            float: left;
+            position: inline-block;
+            transition: 250ms ease;
+            height: 50px;
+            vertical-align: middle;
+            color: $jf-portfolio-color;
+            i { font-size: rem-calc(36); vertical-align: middle; }
+            &:hover {
+               background: $jf-dark-gray;
+               color: $jf-very-light-gray;
+            }
+         }
+         .github {
+            @include icon();
+         }
+         .link {
+            padding-top: 7px;
+            @include icon();
+         }
+      }
+   }
+
 
 }

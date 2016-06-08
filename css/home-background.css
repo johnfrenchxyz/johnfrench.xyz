@@ -1,0 +1,11 @@
+body {
+  background-size: cover; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    body {
+      background-image: url("../img/bg-small.jpg"); } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    body {
+      background-image: url("../img/bg-medium.jpg"); } }
+  @media screen and (min-width: 64em) {
+    body {
+      background-image: url("../img/bg-full.jpg"); } }
