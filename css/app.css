@@ -3894,11 +3894,26 @@ h1 {
   color: #919191;
   font-size: 1.125rem; }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: Montserrat, Helvetica, sans-serif; }
 
 body {
-  background: #F9F9F9; }
+  background-size: cover; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    body {
+      background-image: url("../img/bg-small.jpg"); } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    body {
+      background-image: url("../img/bg-medium.jpg"); } }
+  @media screen and (min-width: 64em) {
+    body {
+      background-image: url("../img/bg-full.jpg"); } }
 
 header {
   background: #F9F9F9;
@@ -3906,7 +3921,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding: 1em;
   box-shadow: 0 6px 6px -6px #919191;
   z-index: 20; }
@@ -3929,7 +3944,6 @@ nav {
   background: #efefef;
   width: 100%;
   height: auto;
-  border-bottom: solid 1px #d0d0d0;
   overflow: scroll; }
   nav ul {
     list-style-type: none;
@@ -3960,12 +3974,82 @@ nav {
       color: #efefef; }
 
 main {
-  margin-top: 0em;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden; }
-  main #homeBG {
-    background-image: url("../img/bg-full.jpg");
-    background-size: cover;
-    height: 100%;
-    background-repeat: no-repeat; }
+  padding-top: 5em; }
+
+.call-to-action h2 {
+  padding-top: 10%;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+  transition: 250ms ease; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .call-to-action h2 {
+      font-size: 1.5rem; } }
+
+#viewMyPortfolio {
+  margin-top: 2em;
+  padding: 1em;
+  background: #444444;
+  color: #efefef;
+  display: block;
+  width: 40%;
+  transition: 250ms ease;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    #viewMyPortfolio {
+      width: 80%; } }
+  #viewMyPortfolio:hover {
+    padding-left: 2em;
+    background: #efefef;
+    color: #444444; }
+
+#viewMyResume {
+  margin-top: 2em;
+  padding: 1em;
+  background: #444444;
+  color: #efefef;
+  display: block;
+  width: 40%;
+  transition: 250ms ease;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 2em; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    #viewMyResume {
+      width: 80%; } }
+  #viewMyResume:hover {
+    padding-left: 2em;
+    background: #efefef;
+    color: #444444; }
+  @media screen and (min-width: 40em) {
+    #viewMyResume {
+      margin-top: 7em; } }
+
+#contactMe {
+  margin-top: 2em;
+  padding: 1em;
+  background: #444444;
+  color: #efefef;
+  display: block;
+  width: 40%;
+  transition: 250ms ease;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 1.5em; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    #contactMe {
+      width: 80%; } }
+  #contactMe:hover {
+    padding-left: 2em;
+    background: #efefef;
+    color: #444444; }
+  @media screen and (min-width: 40em) {
+    #contactMe {
+      margin-top: 7em; } }
