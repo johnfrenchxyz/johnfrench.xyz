@@ -11,7 +11,7 @@ $jf-red: rgba(163, 11, 55, 0.71);
 $jf-light-red: #BD6B73;
 $jf-purple: #BBB6DF;
 $jf-light-purple: #C6C8EE;
-$jf-white: #eeeeee;
+$jf-white: #fff;
 $jf-dark-gray: #444444;
 $jf-light-gray: lighten($jf-dark-gray, 30%);
 $jf-very-light-gray: lighten($jf-light-gray, 37%);
@@ -186,7 +186,6 @@ footer {
 .portfolio-header {
    background: $jf-portfolio-color;
    margin-top: -20px;
-   margin-bottom: 2em;
    color: $jf-white;
    text-align: center;
    i {
@@ -210,6 +209,7 @@ footer {
 .portfolio-section {
    transition: 250ms ease;
    width: 100%;
+   margin-top: 50px;
    @include breakpoint(small only) { text-align: center; }
    // Section Title
    .title {
@@ -233,7 +233,6 @@ footer {
          background: $jf-very-light-gray;
          color: $jf-dark-gray;
          display: block;
-         float: left;
          font-weight: bold;
          transition: 250ms ease;
          text-align: left;
@@ -250,6 +249,14 @@ footer {
          background: $jf-very-light-gray;
          padding: 1em 1em 0 1em;
          overflow: auto;
+         text-align: left;
+         @include breakpoint(small only) { font-size: rem-calc(13); }
+         .note {
+            margin-top: 1em;
+            font-size: rem-calc(13);
+            font-weight: bold;
+            color: $jf-portfolio-color;
+         }
       }
       // Portfolio Icon Container (For Github & Direct Link)
       .icons {
@@ -272,10 +279,26 @@ footer {
          }
          .github {
             @include icon();
+            border-right: solid 1px darken($jf-very-light-gray, 10%);
+         }
+         .github-disabled {
+            @include icon();
+            color: darken($jf-very-light-gray, 15%);
+            cursor: default;
+            border-right: solid 1px darken($jf-very-light-gray, 15%);
+            &:hover {
+               background: darken($jf-very-light-gray, 5%);
+               color: darken($jf-very-light-gray, 15%);
+            }
          }
          .link {
             padding-top: 7px;
             @include icon();
+            border-right: solid 1px darken($jf-very-light-gray, 10%);
+         }
+         .disabled {
+            cursor: default;
+            &:hover {  }
          }
       }
    }
