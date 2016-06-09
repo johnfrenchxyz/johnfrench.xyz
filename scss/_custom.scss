@@ -127,11 +127,11 @@ main {
    }
 }
 
-@mixin block-link ($float) {
+@mixin block-link ($float, $background, $color, $hover-bg, $hover-color) {
    margin-top: 2em;
    padding: 1em;
-   background: $jf-dark-gray;
-   color: $jf-very-light-gray;
+   background: $background;
+   color: $color;
    display: block;
    width: 40%;
    transition: 250ms ease;
@@ -142,23 +142,23 @@ main {
    @include breakpoint(small only) { width: 80%; }
    &:hover {
       padding-left: 2em;
-      background: $jf-very-light-gray;
-      color: $jf-dark-gray;
+      background: $hover-bg;
+      color: $hover-color;
    }
 }
 
 #viewMyPortfolio {
-   @include block-link (left);
+   @include block-link (left, $jf-dark-gray, $jf-very-light-gray, $jf-portfolio-color, $jf-very-light-gray);
 }
 
 #viewMyResume {
-   @include block-link (right);
+   @include block-link (right, $jf-dark-gray, $jf-very-light-gray, $jf-very-light-gray, $jf-dark-gray);
    @include breakpoint(medium up) { margin-top: 7em; }
    margin-top: 2em;
 }
 
 #contactMe {
-   @include block-link (left);
+   @include block-link (left, $jf-dark-gray, $jf-very-light-gray, $jf-very-light-gray, $jf-dark-gray);
    @include breakpoint(medium up) { margin-top: 7em; }
    margin-top: 2em;
 }
@@ -206,10 +206,12 @@ footer {
    }
 }
 
+// Portfolio Sections & Categories
 .portfolio-section {
    transition: 250ms ease;
    width: 100%;
    @include breakpoint(small only) { text-align: center; }
+   // Section Title
    .title {
       color: $jf-portfolio-color;
       font-size: rem-calc(24);
@@ -220,29 +222,38 @@ footer {
       transition: 250ms ease;
       @include breakpoint(small only) { font-size: rem-calc(18); }
    }
+   // Portfolio Item
    .portfolio-item {
       width: 100%;
-
+      // Portfolio Item Header
       .portfolio-item-header {
          width: 100%;
          margin-top: 1em;
-         background: $jf-very-light-gray;
          padding: 1em;
+         background: $jf-very-light-gray;
          color: $jf-dark-gray;
-         display: inline-block;
+         display: block;
+         float: left;
          font-weight: bold;
          transition: 250ms ease;
+         text-align: left;
+         @include breakpoint(small only) { font-size: rem-calc(13); }
          i { float: right; }
          &:hover {
             background: $jf-dark-gray;
             color: $jf-very-light-gray;
          }
       }
+      // Portfolio Item Body
       .portfolio-item-body {
          display: none;
+         background: $jf-very-light-gray;
+         padding: 1em 1em 0 1em;
+         overflow: auto;
       }
+      // Portfolio Icon Container (For Github & Direct Link)
       .icons {
-         width: 100%;
+         margin: 32px -32px -16px -16px !important;
          @mixin icon() {
             text-align: center;
             background: darken($jf-very-light-gray, 5%);

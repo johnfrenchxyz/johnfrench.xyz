@@ -3999,8 +3999,8 @@ main {
       width: 80%; } }
   #viewMyPortfolio:hover {
     padding-left: 2em;
-    background: #efefef;
-    color: #444444; }
+    background: #ed4f4f;
+    color: #efefef; }
 
 #viewMyResume {
   margin-top: 2em;
@@ -4112,21 +4112,29 @@ footer {
     .portfolio-section .portfolio-item .portfolio-item-header {
       width: 100%;
       margin-top: 1em;
-      background: #efefef;
       padding: 1em;
+      background: #efefef;
       color: #444444;
-      display: inline-block;
+      display: block;
+      float: left;
       font-weight: bold;
-      transition: 250ms ease; }
+      transition: 250ms ease;
+      text-align: left; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .portfolio-section .portfolio-item .portfolio-item-header {
+          font-size: 0.8125rem; } }
       .portfolio-section .portfolio-item .portfolio-item-header i {
         float: right; }
       .portfolio-section .portfolio-item .portfolio-item-header:hover {
         background: #444444;
         color: #efefef; }
     .portfolio-section .portfolio-item .portfolio-item-body {
-      display: none; }
+      display: none;
+      background: #efefef;
+      padding: 1em 1em 0 1em;
+      overflow: auto; }
     .portfolio-section .portfolio-item .icons {
-      width: 100%; }
+      margin: 32px -32px -16px -16px !important; }
       .portfolio-section .portfolio-item .icons .github {
         text-align: center;
         background: #e2e2e2;

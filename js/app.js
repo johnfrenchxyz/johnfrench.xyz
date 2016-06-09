@@ -25,5 +25,10 @@ $("#hamburger").keyup(function(event) {
 // Portfolio Item Toggle Function
 $('.portfolio-item-header').click(function(){
    $(this).next('.portfolio-item-body').slideToggle("fast");
-
+   // Portfolio Arrow Toggle
+   if ( $(this).find('.toggle-arrow').text() === 'keyboard_arrow_down' ) {
+      $(this).find('.toggle-arrow').text('keyboard_arrow_up');
+   } else {
+      $(this).find('.toggle-arrow').text('keyboard_arrow_down');
+   }
 });
