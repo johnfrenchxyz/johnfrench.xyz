@@ -4070,8 +4070,7 @@ footer {
 .portfolio-header {
   background: #ed4f4f;
   margin-top: -20px;
-  margin-bottom: 2em;
-  color: #eeeeee;
+  color: #fff;
   text-align: center; }
   .portfolio-header i {
     padding-top: 7%;
@@ -4092,7 +4091,8 @@ footer {
 
 .portfolio-section {
   transition: 250ms ease;
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
   @media screen and (min-width: 0em) and (max-width: 39.9375em) {
     .portfolio-section {
       text-align: center; } }
@@ -4116,7 +4116,6 @@ footer {
       background: #efefef;
       color: #444444;
       display: block;
-      float: left;
       font-weight: bold;
       transition: 250ms ease;
       text-align: left; }
@@ -4132,7 +4131,16 @@ footer {
       display: none;
       background: #efefef;
       padding: 1em 1em 0 1em;
-      overflow: auto; }
+      overflow: auto;
+      text-align: left; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .portfolio-section .portfolio-item .portfolio-item-body {
+          font-size: 0.8125rem; } }
+      .portfolio-section .portfolio-item .portfolio-item-body .note {
+        margin-top: 1em;
+        font-size: 0.8125rem;
+        font-weight: bold;
+        color: #ed4f4f; }
     .portfolio-section .portfolio-item .icons {
       margin: 32px -32px -16px -16px !important; }
       .portfolio-section .portfolio-item .icons .github {
@@ -4144,13 +4152,36 @@ footer {
         transition: 250ms ease;
         height: 50px;
         vertical-align: middle;
-        color: #ed4f4f; }
+        color: #ed4f4f;
+        border-right: solid 1px #d5d5d5; }
         .portfolio-section .portfolio-item .icons .github i {
           font-size: 2.25rem;
           vertical-align: middle; }
         .portfolio-section .portfolio-item .icons .github:hover {
           background: #444444;
           color: #efefef; }
+      .portfolio-section .portfolio-item .icons .github-disabled {
+        text-align: center;
+        background: #e2e2e2;
+        width: 50%;
+        float: left;
+        position: inline-block;
+        transition: 250ms ease;
+        height: 50px;
+        vertical-align: middle;
+        color: #ed4f4f;
+        color: #c9c9c9;
+        cursor: default;
+        border-right: solid 1px #c9c9c9; }
+        .portfolio-section .portfolio-item .icons .github-disabled i {
+          font-size: 2.25rem;
+          vertical-align: middle; }
+        .portfolio-section .portfolio-item .icons .github-disabled:hover {
+          background: #444444;
+          color: #efefef; }
+        .portfolio-section .portfolio-item .icons .github-disabled:hover {
+          background: #e2e2e2;
+          color: #c9c9c9; }
       .portfolio-section .portfolio-item .icons .link {
         padding-top: 7px;
         text-align: center;
@@ -4161,10 +4192,13 @@ footer {
         transition: 250ms ease;
         height: 50px;
         vertical-align: middle;
-        color: #ed4f4f; }
+        color: #ed4f4f;
+        border-right: solid 1px #d5d5d5; }
         .portfolio-section .portfolio-item .icons .link i {
           font-size: 2.25rem;
           vertical-align: middle; }
         .portfolio-section .portfolio-item .icons .link:hover {
           background: #444444;
           color: #efefef; }
+      .portfolio-section .portfolio-item .icons .disabled {
+        cursor: default; }
