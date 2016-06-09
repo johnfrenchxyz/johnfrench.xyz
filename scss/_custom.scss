@@ -249,12 +249,14 @@ footer {
          display: none;
          background: $jf-very-light-gray;
          padding: 1em 1em 0 1em;
-         overflow: auto;
+         overflow-x: hidden;
+         overflow-y: auto;
          text-align: left;
          @include breakpoint(small only) { font-size: rem-calc(13); }
          .note {
             margin-top: 1em;
             font-size: rem-calc(13);
+            @include breakpoint(small only) { font-size: rem-calc(11); }
             font-weight: bold;
             color: $jf-portfolio-color;
          }
