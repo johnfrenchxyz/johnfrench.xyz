@@ -236,6 +236,7 @@ footer {
          font-weight: bold;
          transition: 250ms ease;
          text-align: left;
+         vertical-align: middle;
          @include breakpoint(small only) { font-size: rem-calc(13); }
          i { float: right; }
          &:hover {
