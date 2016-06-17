@@ -32,3 +32,11 @@ $('.portfolio-item-header').click(function(){
       $(this).find('.toggle-arrow').text('keyboard_arrow_down');
    }
 });
+
+
+// Lightbox Modal
+$('.portfolio-gallery-container a').click(function(){
+   var id = $(this).attr('id');
+   var src = $(this).find('img').attr('src');
+   $('#lightbox img').attr('src', src);
+});
