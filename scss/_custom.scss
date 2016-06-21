@@ -342,19 +342,64 @@ footer {
    @include subpage-header($jf-about-color, $jf-white);
 }
 
+.about-left {
+   background-image: url('../about/img/john.jpg');
+   background-position: center;
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: calc(80vh - 50px);
+   z-index: -100;
+   // transition: 250ms ease;
+   @include breakpoint(medium only) {
+      width: 40%;
+   }
+}
+
+.about-right {
+   position: absolute;
+   width: 50%;
+   right: 0;
+   padding: 1em;
+   @include breakpoint(medium only) {
+      width: 60%;
+   }
+   @include breakpoint(small only) {
+      position: relative;
+      width: 100%;
+   }
+}
+
 .resume-button {
-   @include block-link(right, $jf-about-color, $jf-white, darken($jf-about-color, 10%), $jf-white);
-   border-radius: .1em;
-   i { padding-right: 10px; float: left; }
+   margin-top: 2em;
+   padding: 1em;
+   background: $jf-about-color;
+   color: $jf-white;
+   display: block;
+   width: 300px;
+   transition: 250ms ease;
+   font-weight: 700;
+   text-transform: uppercase;
+   align-self: center;
+   i { float: left; margin-right: .5em; }
+   // Small Screen Size
+   @include breakpoint(small only) {
+      width: 100%;
+   }
+   &:hover {
+      padding-left: 2em;
+      background: darken($jf-about-color, 5%);;
+      color: $jf-white;
+   }
 }
 
 .about-container {
-   margin-top: 2em;
-   background: $jf-very-light-gray;
-   width: 80%;
+   margin-top: 1em;
+   margin-bottom: -40px;
+   width: 100%;
    padding: 1em;
    transition: 250ms ease;
-   @include breakpoint(small only) { width: 100%; text-align: center; align-content: center; }
+
    .title {
       color: $jf-about-color;
       font-size: rem-calc(24);
@@ -365,7 +410,35 @@ footer {
       transition: 250ms ease;
       @include breakpoint(small only) { font-size: rem-calc(18); }
    }
+   p { color: lighten($jf-dark-gray, 5%); }
+   .portfolio-section { margin: 0 2em 2em 1em; }
 }
+
+.about-skills {
+   .portfolio-item-body {
+      font-weight: normal;
+      color: lighten($jf-dark-gray, 5%);
+   }
+}
+
+// .about-container {
+//    margin-top: 2em;
+//    background: $jf-very-light-gray;
+//    width: 80%;
+//    padding: 1em;
+//    transition: 250ms ease;
+//    @include breakpoint(small only) { width: 100%; text-align: center; align-content: center; }
+//    .title {
+//       color: $jf-about-color;
+//       font-size: rem-calc(24);
+//       font-family: 'Montserrat', sans-serif;
+//       font-weight: 700;
+//       text-transform: uppercase;
+//       letter-spacing: 5px;
+//       transition: 250ms ease;
+//       @include breakpoint(small only) { font-size: rem-calc(18); }
+//    }
+// }
 
 @mixin about-item($background, $color, $title-color, $title-size) {
    margin-top: 2em;
