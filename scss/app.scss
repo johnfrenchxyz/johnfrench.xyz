@@ -1,3 +1,298 @@
+// Global Colors
+//--------------
+$tan: #EFE8E4;
+$dark-gray: #50514F;
+$red: #E85E5B;
+$white: #ffffff;
+$black: #50514F;
+
+// Media Queries
+//--------------
+$phone: "only screen and (max-width : 640px )";
+$tablet: "only screen and (max-width : 1024px )";
+$desktop: "only screen and (max-width : 1440px )";
+
+.show-for-medium-up {
+   display: none;
+   @media screen and (min-width: 40em) {
+      display: block;
+   }
+}
+
+.show-for-small-only {
+   display: none;
+   @media screen and (max-width: 39.9375em) {
+      display: block;
+   }
+}
+
+// Typography
+//-----------
+
+// Pier
+@font-face {
+   font-family: 'Pier';
+   src: url('../fonts/pier-regular.otf');
+}
+$pier: 'Pier', sans-serif; // Pier Bold
+
+// Pier Bold
+@font-face {
+   font-family: 'Pier Bold';
+   src: url('../fonts/pier-bold.otf');
+}
+$pier-bold: 'Pier Bold', sans-serif; // Moon
+
+// Moon
+@font-face {
+   font-family: 'Moon';
+   src: url('../fonts/moon.otf');
+}
+$moon: 'Moon', sans-serif;
+
+// Roboto Light & Regular
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+$roboto: 'Roboto', sans-serif;
+.regular {
+   font-weight: 400;
+}
+
+
+// Headings
+//---------
+
+// Homepage
+h1.home {
+   font-family: $pier-bold;
+   font-size: 15pt;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   transition: 250ms ease;
+   margin-top: 100px;
+   // For Small:
+   @media #{$phone} {
+      font-size: 13pt;
+   }
+}
+
+// Links
+//------
+a {
+   color: $dark-gray;
+}
+
+// Navigation
+//-----------
+nav {
+   width: 100%;
+   background: $white;
+   height: 42px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   text-align: center;
+   // Nav Items:
+   ul {
+      position: relative;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+         display: inline;
+         a {
+            font-family: $pier;
+            font-size: 10pt;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 3px;
+            padding: 13px 5% 13px 5%;
+            // For Medium:
+            @media #{$tablet} {
+               padding-left: 3%;
+               padding-right: 3%;
+            }
+            display: inline-block;
+            background: $white;
+            transition: 250ms ease;
+            &:hover {
+               color: $red;
+               background: darken($white, 3%);
+            }
+         }
+
+      }
+   }
+}
+
+.toggle-overlay {
+   font-family: $pier;
+   font-size: 10pt;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 3px;
+   padding: 0;
+   z-index: 4;
+   position: relative;
+   background: $white;
+   text-align: center;
+   span {
+      line-height: 42px;
+      width: 100%;
+   }
+   i {
+      line-height: 42px;
+      position: absolute;
+      top: 0;
+      right: 10px;
+   }
+}
+
+.small-nav-container {
+   position: fixed;
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	left: 0;
+   bottom: 0;
+	background: $white;
+   display: flex;
+   text-align: center;
+   transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+	align-items: center;
+   &.is-open {
+      top:42px;
+   }
+   ul {
+      margin: -42px auto 0 auto;
+		padding: 0;
+		list-style: none;
+      li {
+         align-items: center;
+			// flex: 1;
+			// line-height: 20vh;
+         &:last-child a::after {
+            display: none;
+         }
+         a {
+            font-size: 1em;
+				transition: all 0.5s ease;
+				display: block;
+            &::after {
+               content: "";
+               height: 1px;
+               width: 200px;
+               background: lighten($dark-gray, 40%);
+               display: block;
+               margin: 2em auto 1em auto;
+            }
+         }
+      }
+   }
+}
+
+// Section Styles
+//---------------
+
+.section {
+   text-align: center;
+   margin-bottom: 300px;
+   hr {
+      width: 200px;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid lighten($dark-gray, 40%);
+      margin-top: 2em;
+      margin-bottom: 2em;
+   }
+}
+.section-heading {
+   font-family: $pier-bold;
+   text-rendering: optimizeLegibility;
+   font-size: 100pt;
+   color: $dark-gray;
+   text-transform: uppercase;
+   display: block;
+   margin-bottom: -30px;
+}
+.section-subtitle {
+   font-family: $pier;
+   font-size: 12pt;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: $dark-gray;
+   display: block;
+   transition: 250ms ease;
+   // For Small:
+   @media #{$phone} {
+      font-size: 10pt;
+   }
+}
+
+
+// About Section
+//--------------
+.about-container {
+   //  background: green;
+}
+.big-number {
+   font-family: $pier-bold;
+   font-size: 39pt;
+   display: block;
+}
+.about-section {
+   // For Large:
+   width: 40%;
+   max-width: 500px;
+   // For Medium:
+   @media #{$tablet}{
+      width: 50%;
+   }
+   // For Small:
+   @media #{$phone}{
+      width: 90%;
+      max-width: 800px;
+   }
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   .highlight {
+      color: $red;
+   }
+   .title {
+      font-family: $pier-bold;
+      font-size: 15pt;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      display: block;
+      margin: 1em 0 1em 0;
+      // For Small:
+      @media #{$phone}{
+         font-size: 13pt;
+      }
+   }
+   .description {
+      font-family: $roboto;
+      font-weight: 300;
+      font-size: 16pt;
+      margin-bottom: 2em;
+      // For Small:
+      @media #{$phone}{
+         font-size: 13pt;
+      }
+   }
+}
+
+
+
+
+
 body {
-   background: pink;
+   background: $tan;
+   color: $dark-gray;
+}
+h1 {
+   font-family: 'Pier Bold', sans-serif;
+}
+p {
+   font-family: 'Moon', sans-serif;
 }
