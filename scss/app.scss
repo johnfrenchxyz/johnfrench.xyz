@@ -199,7 +199,7 @@ nav {
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-bottom: 10em;
+   margin-bottom: 12em;
    #homeShape {
       width: 50%;
       position: absolute;
@@ -207,6 +207,7 @@ nav {
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: -1;
+      clear: both;
       @media #{$tablet} {
          width: 75%;
          height: auto;
@@ -214,6 +215,7 @@ nav {
       @media #{$phone} {
          width: 95%;
          height: auto;
+         top: 90%;
       }
    }
 }
@@ -251,6 +253,9 @@ $light-gray: #B9B9B9;
     ol li {
       font-size: 1em;
       color: #50514F;
+      @media #{$phone} {
+         font-size: .7em;
+      }
     }
   }
 }
