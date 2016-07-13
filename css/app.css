@@ -125,7 +125,15 @@ nav {
 
 .home-section {
   height: 100vh;
-  width: 100vh; }
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .home-section #homeShape {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 70%; }
 
 .section {
   text-align: center;
