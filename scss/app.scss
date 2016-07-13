@@ -194,23 +194,65 @@ nav {
 .home-section {
    width: 100vw;
    height: 100vh;
+   display:-webkit-flex;
+   display:-ms-flex;
    display: flex;
    align-items: center;
    justify-content: center;
    margin-bottom: 10em;
    #homeShape {
-      width: auto;
-      height: 50%;
+      width: 50%;
       position: absolute;
-      bottom: -40px;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       z-index: -1;
+      @media #{$tablet} {
+         width: 75%;
+         height: auto;
+      }
       @media #{$phone} {
-         margin-left: -7px;
          width: 95%;
          height: auto;
-         // bottom: -40px;
       }
    }
+}
+
+$light-gray: #B9B9B9;
+
+.code-container {
+  font-family: 'Hack', monospace;
+  border: 2px solid $light-gray;
+  max-width: 800px;
+  .code-header {
+    padding: .5em 0 .5em .5em;
+    border-bottom: 2px solid $light-gray;
+    .circle {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid $light-gray;
+    }
+  }
+  .code-body {
+    .custom-counter li {
+      counter-increment: step-counter;
+    }
+    .custom-counter li::before {
+      content: counter(step-counter) ".";
+      margin-right: 15px;
+      color: $light-gray;
+    }
+    ol {
+      list-style: none;
+      margin-left: -2em;
+    }
+    ol li {
+      font-size: 1em;
+      color: #50514F;
+    }
+  }
 }
 
 .section {
