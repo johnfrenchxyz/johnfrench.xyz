@@ -1,6 +1,7 @@
 // Global Colors
 //--------------
 $tan: #EFE8E4;
+$light-gray: #B9B9B9;
 $dark-gray: #50514F;
 $red: #E85E5B;
 $white: #ffffff;
@@ -57,26 +58,27 @@ $roboto: 'Roboto', sans-serif;
    font-weight: 400;
 }
 
-
-// Headings
-//---------
-
-// Homepage
-h1.home {
-   font-family: $pier-bold;
-   font-size: 15pt;
-   text-transform: uppercase;
-   letter-spacing: 10px;
-   transition: 250ms ease;
-   margin-top: 100px;
-   // For Small:
-   @media #{$phone} {
-      font-size: 13pt;
-   }
+// Global Settings
+//----------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-// Links
-//------
+html,
+body {
+  min-height: 100%;
+  background: $tan;
+  color: $dark-gray;
+}
+h1 {
+   font-family: 'Pier Bold', sans-serif;
+}
+p {
+   font-family: 'Moon', sans-serif;
+}
+
 a {
    color: $dark-gray;
 }
@@ -118,11 +120,11 @@ nav {
                color: $red;
             }
          }
-
       }
    }
 }
 
+// Small Screen Menu Bar
 .toggle-overlay {
    font-family: $pier;
    font-size: 10pt;
@@ -145,7 +147,7 @@ nav {
       right: 10px;
    }
 }
-
+// Small Screen Nav Container
 .small-nav-container {
    position: fixed;
 	width: 100%;
@@ -159,6 +161,8 @@ nav {
    align-items: center;
    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
    -webkit-transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+   transform-style: flat;
+   z-index: 100 !important;
    &.is-open {
       top:42px;
    }
@@ -166,10 +170,9 @@ nav {
       margin: -42px auto 0 auto;
 		padding: 0;
 		list-style: none;
+      transform-style: flat;
       li {
          align-items: center;
-			// flex: 1;
-			// line-height: 20vh;
          &:last-child a::after {
             display: none;
          }
@@ -191,87 +194,112 @@ nav {
 
 // Section Styles
 //---------------
-.home-section {
-   width: 100vw;
-   height: 100vh;
-   display:-webkit-flex;
-   display:-ms-flex;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-bottom: 12em;
-   #homeShape {
-      width: 50%;
-      position: absolute;
-      top: 80%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-      clear: both;
-      @media #{$tablet} {
-         width: 75%;
-         height: auto;
-      }
+
+// Homepage Titles
+.homepage-title-section {
+   // Page Title
+   h1 {
+      font-family: $pier-bold;
+      font-size: 15pt;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 10px;
+      transition: 250ms ease;
+      // margin-top: 100px;
+      // For Small:
       @media #{$phone} {
-         width: 95%;
-         height: auto;
-         top: 90%;
+         font-size: 13pt;
+      }
+   }
+   // Subtitle
+   span {
+      font-family: $pier;
+      font-size: 12pt;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      color: $dark-gray;
+      display: block;
+      transition: 250ms ease;
+      // For Small:
+      @media #{$phone} {
+         font-size: 10pt;
       }
    }
 }
 
-$light-gray: #B9B9B9;
-
+// Homepage Code Container
 .code-container {
-  font-family: 'Hack', monospace;
-  border: 2px solid $light-gray;
-  max-width: 800px;
-  .code-header {
-    padding: .5em 0 .5em .5em;
-    border-bottom: 2px solid $light-gray;
-    .circle {
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      border: 2px solid $light-gray;
-    }
-  }
-  .code-body {
-    .custom-counter li {
-      counter-increment: step-counter;
-    }
-    .custom-counter li::before {
-      content: counter(step-counter) ".";
-      margin-right: 15px;
-      color: $light-gray;
-    }
-    ol {
-      list-style: none;
-      margin-left: -2em;
-    }
-    ol li {
-      font-size: 1em;
-      color: #50514F;
-      @media #{$phone} {
-         font-size: .7em;
+   font-family: 'Hack', monospace;
+   border: 2px solid $light-gray;
+   // Desktop Width:
+   width: 50%;
+   // Tablet Width:
+   @media #{$tablet}{
+      width: 75%;
+   }
+   // Phone Width:
+   @media #{$phone}{
+      width: 95%;
+      margin-top: 30%;
+   }
+   margin: 3em auto 3em auto;
+   .code-header {
+      padding: .5em 0 .5em .5em;
+      border-bottom: 2px solid $light-gray;
+      .circle {
+         display: inline-block;
+         width: 15px;
+         height: 15px;
+         border-radius: 50%;
+         border: 2px solid $light-gray;
       }
-    }
-  }
+   }
+   .code-body {
+      .custom-counter li {
+         counter-increment: step-counter;
+      }
+      .custom-counter li::before {
+         content: counter(step-counter) ".";
+         margin-right: 15px;
+         color: $light-gray;
+      }
+      ol {
+         list-style: none;
+         margin: 1em .1em 1em 1em;
+      }
+      ol li {
+         font-size: 1em;
+         color: #50514F;
+         overflow: hidden;
+         white-space: nowrap;
+         @media #{$phone} {
+            font-size: .7em;
+         }
+      }
+   }
 }
+
+
+
+main {
+   margin-top: calc(5em + 42px);
+}
+
+
+// Horizontal Rule
+hr {
+   width: 200px;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid lighten($dark-gray, 40%);
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
 
 .section {
    text-align: center;
-   margin-bottom: 300px;
-   background: $tan;
-   hr {
-      width: 200px;
-      height: 1px;
-      border: 0;
-      border-top: 1px solid lighten($dark-gray, 40%);
-      margin-top: 2em;
-      margin-bottom: 2em;
-   }
 }
 .section-heading {
    font-family: $pier-bold;
@@ -282,25 +310,13 @@ $light-gray: #B9B9B9;
    display: block;
    margin-bottom: -30px;
 }
-.section-subtitle {
-   font-family: $pier;
-   font-size: 12pt;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   color: $dark-gray;
-   display: block;
-   transition: 250ms ease;
-   // For Small:
-   @media #{$phone} {
-      font-size: 10pt;
-   }
-}
+
 
 
 // About Section
 //--------------
 .about-container {
-   //  background: green;
+   text-align: center;
 }
 .big-number {
    font-family: $pier-bold;
@@ -348,19 +364,4 @@ $light-gray: #B9B9B9;
          font-size: 13pt;
       }
    }
-}
-
-
-
-
-
-body {
-   background: $tan;
-   color: $dark-gray;
-}
-h1 {
-   font-family: 'Pier Bold', sans-serif;
-}
-p {
-   font-family: 'Moon', sans-serif;
 }
