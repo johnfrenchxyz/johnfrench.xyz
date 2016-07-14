@@ -400,3 +400,70 @@ hr {
       }
    }
 }
+
+// UI Drawing
+$shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
+
+.ui-drawing {
+	width: 100%;
+   // Extra Large Screen Size
+   margin-top: -20%;
+   // Desktop Screen Size
+   @media #{$desktop}{
+      margin-top: -25%;
+   }
+   // Tablet Screen Size
+   @media #{$tablet}{
+      margin-top: -55%;
+   }
+   // Phone Screen Size
+   @media #{$tablet}{
+      margin-top: -65%;
+   }
+}
+
+.top-page {
+	background: $white;
+	width: 25%;
+	box-shadow: $shadow;
+	transform: skew(-25deg, 10deg) translateX(180%) translateY(-40%);
+	// Transforms
+	@media #{$tablet} {
+		margin-top: 20%;
+		width: 30%;
+		transform: skew(-25deg, 10deg) translateX(110%) translateY(-70%);
+	}
+	@media #{$phone} {
+		width: 35%;
+		transform: skew(-25deg, 10deg) translateX(40%) translateY(-70%);
+	}
+	&:before {
+		content: "";
+    display: block;
+    padding-top: 130%;
+	}
+}
+
+.bottom-page {
+	// Styles
+	background: darken($white, 5%);
+	box-shadow: $shadow;
+	width: 30%;
+	// Transforms
+	@media #{$tablet} {
+		margin-top: 20%;
+		width: 40%;
+		transform: skew(120deg, 15deg) translateX(200%);
+	}
+	@media #{$phone} {
+		margin-top: 40%;
+		width: 45%;
+		transform: skew(120deg, 15deg) translateX(150%);
+	}
+	transform: skew(120deg, 15deg) translateX(250%);
+	&:before {
+		content: "";
+    display: block;
+    padding-top: 120%;
+	}
+}
