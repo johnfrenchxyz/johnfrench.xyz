@@ -93,12 +93,11 @@ nav {
    top: 0;
    left: 0;
    text-align: center;
+   z-index: 100;
    // Nav Items:
    ul {
       position: relative;
       list-style-type: none;
-      margin: 0;
-      padding: 0;
       li {
          display: inline;
          a {
@@ -107,7 +106,8 @@ nav {
             text-transform: uppercase;
             text-decoration: none;
             letter-spacing: 3px;
-            padding: 13px 5% 13px 5%;
+            line-height: 42px;
+            padding: 0 5% 0 5%;
             // For Medium:
             @media #{$tablet} {
                padding-left: 3%;
@@ -406,6 +406,7 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 
 .ui-drawing {
 	width: 100%;
+   overflow-x: hidden;
    // Extra Large Screen Size
    margin-top: -20%;
    // Desktop Screen Size
