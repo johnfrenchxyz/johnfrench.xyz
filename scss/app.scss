@@ -458,7 +458,7 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    @include sectionWidth();
    margin-left: auto;
    margin-right: auto;
-   margin-top: 0em;
+   margin-top: 10em;
    text-align: center;
    p {
       font-family: $moon;
@@ -483,6 +483,9 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 	max-width: 800px;
    font-family: $pier-bold;
    font-size: 1.5em;
+   @media #{$phone} {
+      font-size: 1em;
+   }
    text-transform: uppercase;
    letter-spacing: 3px;
    color: $dark-gray;
@@ -491,7 +494,8 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 
 
 
-
+// UX Design Section
+//------------------
 
 
 
