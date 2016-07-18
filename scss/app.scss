@@ -35,14 +35,14 @@ $desktop: "only screen and (max-width : 1440px )";
    font-family: 'Pier';
    src: url('../fonts/pier-regular.otf');
 }
-$pier: 'Pier', sans-serif; // Pier Bold
+$pier: 'Pier', sans-serif;
 
 // Pier Bold
 @font-face {
    font-family: 'Pier Bold';
    src: url('../fonts/pier-bold.otf');
 }
-$pier-bold: 'Pier Bold', sans-serif; // Moon
+$pier-bold: 'Pier Bold', sans-serif;
 
 // Moon
 @font-face {
@@ -383,24 +383,6 @@ hr {
 
 // UI Design Section
 //------------------
-.ui-design {
-   @include sectionWidth();
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 10em;
-   text-align: center;
-   p {
-      font-family: $moon;
-      margin: 2em 0 2em 0;
-      font-size: 16pt;
-      letter-spacing: 3px;
-      // For Small:
-      @media #{$phone}{
-         font-size: 13pt;
-      }
-   }
-}
-
 // UI Drawing
 $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 
@@ -416,10 +398,12 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    // Tablet Screen Size
    @media #{$tablet}{
       margin-top: -55%;
+      margin-bottom: -5em;
    }
    // Phone Screen Size
-   @media #{$tablet}{
+   @media #{$phone}{
       margin-top: -65%;
+      margin-bottom: -5em;
    }
 }
 
@@ -466,5 +450,118 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 		content: "";
     display: block;
     padding-top: 120%;
+	}
+}
+
+
+.ui-design {
+   @include sectionWidth();
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0em;
+   text-align: center;
+   p {
+      font-family: $moon;
+      margin: 2em 0 2em 0;
+      font-size: 16pt;
+      letter-spacing: 3px;
+      // For Small:
+      @media #{$phone}{
+         font-size: 13pt;
+      }
+   }
+}
+
+// Case Study
+.case-study {
+   text-align: left;
+   margin: 0 auto 1em auto;
+   width: 100%;
+   @media #{$tablet} {
+      width: 90%;
+   }
+	max-width: 800px;
+   font-family: $pier-bold;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: $dark-gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Portfolio
+//----------
+
+// Portfolio Cards
+$card-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+.card {
+	width: 100%;
+	max-width: 800px;
+   @media #{$tablet} {
+      width: 90%;
+   }
+   background: $white;
+	margin: 0 auto 0 auto;
+	box-shadow: $card-shadow;
+	// Card Image & Caption
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figure img {
+		width: 100%;
+		height: auto;
+	}
+	figure figcaption {
+		color: $white;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 1em;
+		font-size: rem-calc(24);
+		font-family: $pier-bold;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+	// Card Body
+	.card-body {
+		padding: 1em;
+		margin: 0 0 1em 0;
+		font-family: $roboto;
+		font-weight: 300;
+	}
+	// Card Button
+	.card-button {
+		display: block;
+		width: 100%;
+		padding: 1em 0 1em 0;
+		border-top: 1px solid $light-gray;
+		text-align: center;
+		font-size: .8em;
+		font-family: $pier;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: $dark-gray;
+		text-decoration: none;
+		transition: 250ms ease;
+		// Hover State
+		&:hover {
+			background: $red;
+			color: $white;
+		}
 	}
 }
