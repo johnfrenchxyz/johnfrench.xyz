@@ -474,78 +474,22 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
       }
    }
 }
-// UX Drawing
-// Aspect Ratio Mixin
-@mixin aspect-ratio($width, $height) {
-   position: relative;
-   &:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: ($height / $width) * 100%;
-   }
-   > .content {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-   }
-}
-@mixin uxIconScale($xl:18em, $l:18em, $m:12em, $s:8em, $xs:4em) {
-   font-size: $xl;
-   color: $dark-gray;
-   @media #{$desktop} {
-      font-size: $l;
-   }
-   @media #{$tablet} {
-      font-size: $m;
-   }
-   @media #{$phone} {
-      font-size: $s;
-   }
-   @media #{$smallPhone} {
-      font-size: $xs;
-   }
-}
-$ux-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 .ux-drawing {
-   width: 50%;
-   max-width: 500px;
-   margin: 0 auto 0 auto;
-   .top-page {
-      @include aspect-ratio(8.5, 11);
-      background: $white;
-      box-shadow: $ux-shadow;
-      margin: -60% auto 0 30%;
-      .content {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         overflow: hidden;
-      }
-      i {
-         @include uxIconScale();
-      }
-   }
-   .bottom-page {
-      @include aspect-ratio(8.5, 11);
-      max-width: 500px;
-      width: 55%;
-      background: darken($white, 5%);
-      box-shadow: $ux-shadow;
-      margin: 10% 100% 0 auto;
-      .content {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         overflow: hidden;
-      }
-      i {
-         @include uxIconScale(15em, 15em, 10em, 6em, 2em);
-      }
+   max-width: 800px;
+   text-align: center;
+   margin: 5em auto 0 auto;
+   img {
+      width: 90%;
+      margin: 0 auto 0 auto;
    }
 }
+
+#ux {
+   margin-top: 4em;
+}
+
+
 // Portfolio
 //----------
 // Portfolio Cards
