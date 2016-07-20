@@ -5,7 +5,7 @@ $light-gray: #B9B9B9;
 $dark-gray: #50514F;
 $red: #E85E5B;
 $white: #ffffff;
-$black: #50514F;
+$black: #2B2B2B;
 // Media Queries
 //--------------
 $smallPhone: "only screen and (max-width : 350px )";
@@ -50,6 +50,8 @@ $roboto: 'Roboto', sans-serif;
 .regular {
    font-weight: 400;
 }
+// Foundation Icons
+@import "../fonts/foundation-icons.css";
 // Global Settings
 //----------------
 * {
@@ -266,7 +268,14 @@ nav {
 }
 main {
    margin-top: calc(5em + 42px);
+   min-height: 100%;
+   margin-bottom: -5em;
+   &:after {
+      content: "";
+      display: block;
+   }
 }
+
 // Horizontal Rule
 hr {
    width: 200px;
@@ -547,6 +556,64 @@ $string-color: #E2E2E2;
 
 #dev {
    margin-top: 4em;
+}
+
+// Spacer (for footer margin)
+.spacer {
+   height: 5em;
+}
+
+// Footer
+//-------
+footer, main:after {
+  height: 17em;
+}
+
+footer {
+   background: $dark-gray;
+   padding: 1em 0 1em 0;
+   text-align: center;
+   a {
+      margin-top: 1em;
+      color: $tan;
+      text-decoration: none;
+      display: block;
+      transition: 150ms ease;
+      i {
+         font-size: 3em !important;
+      }
+      span {
+         display: block;
+         font-family: $pier;
+         text-transform: uppercase;
+         letter-spacing: 3px;
+         font-size: .8em !important;
+      }
+      &:hover {
+         color: #00ABA4;
+      }
+   }
+
+   .social-section {
+      width: 100%;
+      color: $tan;
+      margin-top: 3em;
+      line-height: 2em;
+      height: 4em;
+      background: $black;
+      ul {
+         list-style: none;
+         margin: 0;
+      }
+      ul li {
+         display: inline-block;
+         margin: 0 .5em 0 .5em;
+      }
+      i {
+         font-size: 2em !important;
+      }
+   }
+
 }
 
 
