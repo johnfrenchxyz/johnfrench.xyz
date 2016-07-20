@@ -489,6 +489,61 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    margin-top: 4em;
 }
 
+// Development Section
+//--------------------
+// Dev Container
+.dev-section {
+   @include sectionWidth();
+   margin: 10em auto 0;
+   text-align: center;
+   p {
+      font-family: $moon;
+      margin: 2em 0;
+      font-size: 16pt;
+      letter-spacing: 3px;
+      // For Small:
+      @media #{$phone} {
+         font-size: 13pt;
+      }
+   }
+}
+// Dev Drawing
+$comment-color: #95989A;
+$var-color: #00ABA4;
+$name-color: #DE6F71;
+$property-color: #A09ED5;
+$function-color: #D38E60;
+$string-color: #E2E2E2;
+
+.dev-drawing {
+	background: $dark-gray;
+	padding: 1em;
+	width: 100%;
+	font-family: 'Hack', monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.code-block {
+		color: $comment-color;
+      // For Large Screens
+		font-size: 1.5em;
+      // For Medium Screens
+      @media #{$tablet} {
+         font-size: 1.3em;
+      }
+      // For Small Screens
+      @media #{$phone} {
+         font-size: 1em;
+      }
+		.comment { color: $comment-color; }
+		.var { color: $var-color; }
+		.name { color: $name-color; }
+		.property { color: $property-color; }
+		.function { color: $function-color; }
+		.string { color: $string-color; }
+	}
+}
+
 
 // Portfolio
 //----------

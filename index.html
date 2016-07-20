@@ -192,6 +192,35 @@
          <a href="#" class="card-button">View Project</a>
       </div>
 
+      <div class="dev-section">
+         <span class="section-heading">Dev</span>
+         <span class="section-subtitle">Front End Development</span>
+         <hr />
+      </div>
+
+      <div class="dev-drawing">
+         <pre>
+		<code id="code" class="code-block">
+<span class="var">var</span> <span class="name">developer</span> = <span class="var">new</span> <span class="function">Object()</span>;
+<span class="name">developer</span>.<span class="property">name</span> = "<span class="string">John French</span>";
+<span class="name">developer</span>.<span class="property">skills</span> = "<span class="string">web design & development</span>"
+<span class="name">developer</span>.<span class="property">forHire</span> = <span class="function">true</span>;
+
+<span class="var">var</span> <span class="name">company</span> = <span class="var">new</span> <span class="function">Object()</span>;
+<span class="name">company</span>.<span class="property">name</span> = "<span class="string">Your company</span>";
+
+<span class="var">var</span> <span class="name">hireMe</span> = <span class="function">function()</span>{
+  <span class="var">var</span> <span class="name">message</span> = <span class="property">document</span>.<span class="function">getElementById</span>('<span class="string">message</span>');
+  <span class="name">message</span>.<span class="property">innerHTML</span> =
+    <span class="name">company</span>.<span class="property">name</span> + " <span class="string">should hire</span> " + <span class="name">developer</span>.<span class="property">name</span>
+    + ' <span class="string">for</span> ' + <span class="name">developer</span>.<span class="property">skills</span> + '<span class="string">.</span>';
+}
+
+<span class="function">hireMe()</span>;
+		</code>
+	</pre>
+      </div>
+
    </main>
 
    <br />
