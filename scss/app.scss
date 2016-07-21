@@ -331,6 +331,9 @@ hr {
          font-size: 13pt;
       }
    }
+   .highlight {
+      color: $red;
+   }
 }
 
 // Section Body Paragraph
@@ -384,7 +387,7 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    // Desktop Screen Size
    @media #{$desktop} {
       margin-top: -25%;
-      margin-bottom: -10em;
+      margin-bottom: -7em;
    }
    // Tablet Screen Size
    @media #{$tablet} {
@@ -446,11 +449,14 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    @include sectionText();
    margin: 10em auto 0;
    text-align: center;
+   .title, .description {
+      text-align: left;
+   }
 }
 // Case Study
 .case-study {
    text-align: left;
-   margin: 0 auto 1em;
+   margin: 4em auto 1em;
    width: 100%;
    @media #{$tablet} {
       width: 90%;
@@ -470,18 +476,12 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 // UX Container
 .ux-design {
    @include sectionWidth();
+   @include sectionText();
+   .title, .description {
+      text-align: left;
+   }
    margin: 10em auto 0;
    text-align: center;
-   p {
-      font-family: $moon;
-      margin: 2em 0;
-      font-size: 16pt;
-      letter-spacing: 3px;
-      // For Small:
-      @media #{$phone} {
-         font-size: 13pt;
-      }
-   }
 }
 
 .ux-drawing {
@@ -503,18 +503,12 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 // Dev Container
 .dev-section {
    @include sectionWidth();
+   @include sectionText();
+   .title, .description {
+      text-align: left;
+   }
    margin: 10em auto 0;
    text-align: center;
-   p {
-      font-family: $moon;
-      margin: 2em 0;
-      font-size: 16pt;
-      letter-spacing: 3px;
-      // For Small:
-      @media #{$phone} {
-         font-size: 13pt;
-      }
-   }
 }
 // Dev Drawing
 $comment-color: #95989A;
