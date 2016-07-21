@@ -307,6 +307,35 @@ hr {
       font-size: 10pt;
    }
 }
+// Section Body Header
+@mixin sectionText {
+   .title {
+      font-family: $pier-bold;
+      font-size: 15pt;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      display: block;
+      margin: 1em 0;
+      // For Small:
+      @media #{$phone} {
+         font-size: 13pt;
+      }
+   }
+   .description {
+      font-family: $roboto;
+      font-weight: 300;
+      font-size: 16pt;
+      margin-bottom: 2em;
+      // For Small:
+      @media #{$phone} {
+         font-size: 13pt;
+      }
+   }
+}
+
+// Section Body Paragraph
+
+
 // About Section
 //--------------
 @mixin sectionWidth {
@@ -339,28 +368,8 @@ hr {
    .highlight {
       color: $red;
    }
-   .title {
-      font-family: $pier-bold;
-      font-size: 15pt;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      display: block;
-      margin: 1em 0;
-      // For Small:
-      @media #{$phone} {
-         font-size: 13pt;
-      }
-   }
-   .description {
-      font-family: $roboto;
-      font-weight: 300;
-      font-size: 16pt;
-      margin-bottom: 2em;
-      // For Small:
-      @media #{$phone} {
-         font-size: 13pt;
-      }
-   }
+   // Title and Description
+   @include sectionText;
 }
 // UI Design Section
 //------------------
@@ -434,18 +443,9 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
 }
 .ui-design {
    @include sectionWidth();
+   @include sectionText();
    margin: 10em auto 0;
    text-align: center;
-   p {
-      font-family: $moon;
-      margin: 2em 0;
-      font-size: 16pt;
-      letter-spacing: 3px;
-      // For Small:
-      @media #{$phone} {
-         font-size: 13pt;
-      }
-   }
 }
 // Case Study
 .case-study {
