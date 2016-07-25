@@ -461,7 +461,7 @@ $shadow: 0 2px 5px rgba(0,0,0,0.19), 12px 6px 3px rgba(0,0,0,0.15);
    @media #{$tablet} {
       width: 90%;
    }
-   max-width: 800px;
+   max-width: 600px;
    font-family: $pier-bold;
    font-size: 1.5em;
    @media #{$phone} {
@@ -632,7 +632,7 @@ footer {
 $card-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 .card {
    width: 100%;
-   max-width: 800px;
+   max-width: 600px;
    @media #{$tablet} {
       width: 90%;
    }
