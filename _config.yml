@@ -10,7 +10,7 @@ title: John French
 email: hello@johnfrench.xyz
 description: John French is a Web Designer and Developer based in Athens, Georgia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.johnfrenchxyz.github.io/johnfrench.xyz" # the base hostname & protocol for your site
 twitter_username: johnfrenchxyz
 github_username:  johnfrenchxyz
 root: /octo-5
