@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: John French
+email: hello@johnfrench.xyz
+description: John French is a Web Designer and Developer based in Athens, Georgia.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: johnfrenchxyz
+github_username:  johnfrenchxyz
+
+# Build settings
+markdown: kramdown
+
+# Minify CSS
+sass:
+   style: compressed
