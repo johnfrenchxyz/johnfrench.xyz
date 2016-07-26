@@ -824,7 +824,8 @@ article.post {
    // Post Content
    .post-content {
       max-width: 700px;
-      margin: 0 1em 2em 1em;
+      margin: 0 0 2em 0;
+      padding: 1em;
       p {
          font-family: $roboto;
          text-transform: none;
@@ -833,7 +834,7 @@ article.post {
       }
       // Post Code Snippet
       figure {
-         margin-top: 1em;
+         min-width: 500px;
          code {
             font-family: monospace;
             font-weight: bold;
@@ -842,7 +843,6 @@ article.post {
       // Post Image
       img {
          width: 100%;
-         margin-bottom: 1em;
       }
    }
 }
@@ -852,6 +852,7 @@ article.post {
 
 // Code Coloring for posts
 //------------------------
+
 .highlight {
    background: #fff;
    padding: 1em;
