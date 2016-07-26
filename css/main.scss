@@ -630,6 +630,24 @@ footer {
 
 }
 
+// Subpage Mixins
+//---------------
+// Section Body Header
+@mixin subPageHeadings {
+   .section-heading {
+      font-family: $pier-bold;
+      text-rendering: optimizeLegibility;
+      font-size: 2em;
+      color: $dark-gray;
+      text-transform: uppercase;
+      margin-bottom: -.5em;
+      display: block;
+      @media #{$phone}{
+         font-size: 1.5em;
+      }
+   }
+}
+
 
 // Portfolio
 //----------
@@ -695,22 +713,41 @@ $card-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
    }
 }
 
+// Portfolio Page Styles
+//----------------------
+.portfolio-title-section {
+   @include subPageHeadings;
+   .title, .description {
+      text-align: center;
+   }
+   margin: 0 auto 0 auto;
+   text-align: center;
+}
 
-// Subpage Mixins
-//---------------
-// Section Body Header
-@mixin subPageHeadings {
-   .section-heading {
+.portfolio-item-list {
+   // Post Image
+   img {
+      width: 100%;
+      margin-bottom: 1em;
+   }
+   // Title of Portfolio Item
+   .portfolio-item-link {
+      padding: 1em 1em 0 1em;
+      margin-bottom: 0;
+      font-size: 1em;
       font-family: $pier-bold;
-      text-rendering: optimizeLegibility;
-      font-size: 2em;
-      color: $dark-gray;
       text-transform: uppercase;
-      margin-bottom: -.5em;
+      text-decoration: none;
       display: block;
-      @media #{$phone}{
-         font-size: 1.5em;
-      }
+   }
+   // Portfolio Item Content
+   .portfolio-item-excerpt {
+      padding: 1em;
+      margin-top: 0;
+      font-family: $roboto;
+      font-weight: 300;
+      font-size: 1em;
+      margin-top: 1em;
    }
 }
 
@@ -773,7 +810,6 @@ $card-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
       margin-top: 1em;
    }
    // Read More Button
-   // Card Button
    .card-button {
       display: block;
       width: 100%;

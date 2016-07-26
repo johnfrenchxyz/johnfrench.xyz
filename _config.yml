@@ -17,6 +17,10 @@ github_username:  johnfrenchxyz
 # Build settings
 markdown: kramdown
 
+collections:
+   portfolio-items:
+      output: true
+
 # Minify CSS
 sass:
    style: compressed
