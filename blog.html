@@ -3,17 +3,36 @@ layout: default
 ---
 
 <main>
-   This is the blog page.
-   <ul class="post-list">
+   <div class="blog-title-section">
+      <span class="section-heading">Blog</span>
+      <hr />
+   </div>
+   <!-- <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li class="card">
+         {% if post.img %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="post-image" src="{{ post.img }}" /></a>
+         {% endif %}
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+         <p class="post-excerpt">{{ post.excerpt }}</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
+
+  <div class="post-list">
+  {% for post in site.posts %}
+     <div class="card">
+        {% if post.img %}
+           <a href="{{ post.url | prepend: site.baseurl }}"><img class="post-image" src="{{ post.img }}" /></a>
+        {% endif %}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="card-button">Read More</a>
+     </div>
+  {% endfor %}
+</div>
 
 </main>

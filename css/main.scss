@@ -341,7 +341,7 @@ hr {
    }
 }
 
-// Section Body Paragraph
+
 
 
 // About Section
@@ -671,6 +671,105 @@ $card-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
       font-family: $roboto;
       font-weight: 300;
    }
+   // Card Button
+   .card-button {
+      display: block;
+      width: 100%;
+      line-height: 2em;
+      height: 4em;
+      padding: 1em 0;
+      border-top: 1px solid $light-gray;
+      text-align: center;
+      font-size: 0.8em;
+      font-family: $pier;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: $dark-gray;
+      text-decoration: none;
+      transition: 250ms ease;
+      // Hover State
+      &:hover {
+         background: $red;
+         color: $white;
+      }
+   }
+}
+
+
+// Subpage Mixins
+//---------------
+// Section Body Header
+@mixin subPageHeadings {
+   .section-heading {
+      font-family: $pier-bold;
+      text-rendering: optimizeLegibility;
+      font-size: 2em;
+      color: $dark-gray;
+      text-transform: uppercase;
+      margin-bottom: -.5em;
+      display: block;
+   }
+}
+
+
+// Blog Page Styles
+//-----------------
+.blog-title-section {
+   @include subPageHeadings;
+   .title, .description {
+      text-align: center;
+   }
+   margin: 0 auto 0 auto;
+   text-align: center;
+}
+.post-list {
+   list-style: none;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   // Actual Posts:
+   // li {
+   //    background: $white;
+   //    padding: 1em;
+   //    margin: 1em 0 1em 0;
+   //    overflow: auto;
+   // }
+   .card {
+      background: $white;
+      // padding: 1em;
+      margin: 1em 0 1em 0;
+      overflow: auto;
+   }
+   // Image of Blog Post
+   .post-image {
+      width: 100%;
+      margin-bottom: 1em;
+   }
+   // Title of Blog Post
+   .post-link {
+      padding: 1em;
+      font-size: 1em;
+      font-family: $pier-bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+   }
+   // Metadata of Blog Post
+   .post-meta {
+      padding: 1em;
+      font-family: $roboto;
+      text-transform: uppercase;
+   }
+   // Post Excerpt
+   .post-excerpt {
+      padding: 1em;
+      font-family: $roboto;
+      font-weight: 300;
+      font-size: 1em;
+      margin-top: 1em;
+   }
+   // Read More Button
    // Card Button
    .card-button {
       display: block;
