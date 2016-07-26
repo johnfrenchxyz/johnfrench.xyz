@@ -336,7 +336,7 @@ hr {
          font-size: 13pt;
       }
    }
-   .highlight {
+   .emphasis {
       color: $red;
    }
 }
@@ -373,7 +373,7 @@ hr {
    margin-left: auto;
    margin-right: auto;
    text-align: left;
-   .highlight {
+   .emphasis {
       color: $red;
    }
    // Title and Description
@@ -853,7 +853,8 @@ article.post {
 // Code Coloring for posts
 //------------------------
 .highlight {
-   // background: #fff;
+   background: #fff;
+   padding: 1em;
    .highlighter-rouge & {
       background: #eef;
    }
