@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jul 2016 09:59:19 -0400</pubDate>
-    <lastBuildDate>Tue, 26 Jul 2016 09:59:19 -0400</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 10:31:25 -0400</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 10:31:25 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -37,7 +37,7 @@
     
       <item>
         <title>Test Post, Bitches!</title>
-        <description>&lt;p&gt;img: &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/c/c2/Beautiful_landscape_in_black_and_white,_Scotland_(5831890202).jpg&quot; alt=&quot;Black and White Landscape&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/c/c2/Beautiful_landscape_in_black_and_white,_Scotland_(5831890202).jpg&quot; alt=&quot;Black and White Landscape&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;THIS IS A TEST POST.&lt;/p&gt;
 
