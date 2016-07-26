@@ -12,6 +12,9 @@ $('.toggle-overlay').click(function() {
    } else {
       $('.small-nav-container').addClass('is-open');
    }
+   $('.small-nav-container li a').click(function(){
+      $('.small-nav-container').removeClass('is-open');
+   });
 });
 
 // Mobile Nav Close on Resize
