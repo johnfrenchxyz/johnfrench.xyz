@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jul 2016 09:10:10 -0400</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2016 09:10:10 -0400</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2016 10:55:49 -0400</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2016 10:55:49 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -108,17 +108,53 @@
         <title>Tesla Motors Mobile UI Design</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://www.tesla.com/sites/default/files/images/homepage/home-hero-modelx-mobile.jpg&quot; alt=&quot;Tesla Model X&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Description:&lt;/p&gt;
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
 
 &lt;p&gt;When examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience.&lt;/p&gt;
 
-&lt;p&gt;Challenges:&lt;/p&gt;
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
   &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
   &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&quot;teslas-current-mobile-homepage&quot;&gt;Tesla’s Current Mobile Homepage:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a screen capture of Tesla’s current mobile site (as of July of 2016).  It is by no means displeasing, but when it is compared to the desktop site - the layout and user experience feel lackluster.  To get started, I’ll show you the large, scrolling mockup I have created.  It provides all navigational and functional options of Tesla’s current mobile site, as well as its desktop experience as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Interface:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see from the first screenshot, the current Tesla mobile site feels almost like a fallback in comparison to the desktop site.  If a user goes to the desktop site first, and then later visits teslamotors.com on their mobile device, they may be underwhelmed by the difference in experience.  I am a firm believe that, despite the small screen size, a mobile interface can be just as rich and compelling as a desktop interface.&lt;/p&gt;
+
+&lt;p&gt;My addition of diagonal blocks and lines also breaks from the traditional box model of many modern layouts, which serves to illustrates the way that Tesla is far more than simply another car company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Hamburger Menu:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the current Tesla mobile site, they are using the “E” of “3” of the Tesla logo for the hamburger menu.  From a branding perspective, I understand this practice, however, by their very nature, hamburger menus obfuscate content.  Now that hamburger menus have been adopted by Google, they have a certain level of ubiquity that offsets usability problems with hiding nav items, but because some users aren’t incredibly familiar with hamburger menus to begin with, I thought it would be a more user-focused decision to use a typical hamburger icon.  Using a traditional icon also has the added bonus of being easier to animate for into an “x” for closing the menu.  Currently, on the Tesla mobile site, clicking on the hamburger icon activates an off-canvas menu, but the icon does not change or give the user any indication of how they may close the menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mobile Navigation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The changes I brought to the mobile navigation help visually break up the different sections of the Tesla website, which would help first-time users be able to navigate the site with more confidence.  Additionally, the highlighted “Shop” and “My Tesla” buttons at the bottom of the navigation stick out far more than on the current navigation and draw more attention to two of the more important links in the navigation list.  In particular, the red “My Tesla” button creates a distinct target for users that frequently come back to that portion of the website.  Lastly, the typography in this mockup is significantly larger than text in the current off-canvas menu, which would help users with visual impairments see the navigation items better, and users with physical impairments could more easily select the intended navigation item.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsive Scalability:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While their are advantages and disadvantages to responsive design versus separate desktop, tablet, and mobile sites, I believe that the user interface design should be consistent across all platforms and devices, while still highlighting the benefits of each device (touch functionality, etc.).  Below are the tablet and desktop variations of the site.  You can see how the navigation and content change slightly to accommodate the screen size, yet still remain true to the look and feel of the mobile mockup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-desktop.png&quot; alt=&quot;My mockup of Tesla.com desktop layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
 </description>
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/tesla.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/tesla.html</guid>
