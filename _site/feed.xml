@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jul 2016 08:55:38 -0400</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2016 08:55:38 -0400</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2016 09:10:10 -0400</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2016 09:10:10 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -100,9 +100,7 @@
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/2016-07-25-welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>ux</category>
         
       </item>
     
@@ -129,6 +127,8 @@
         <category>UI</category>
         
         <category>design</category>
+        
+        <category>tesla</category>
         
       </item>
     

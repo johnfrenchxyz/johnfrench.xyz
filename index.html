@@ -110,16 +110,21 @@ layout: default
       <div class="case-study">
          Case Study:
       </div>
-      
-      <div class="card">
-         <figure>
-            <img src="https://static.pexels.com/photos/2312/sea-black-and-white-nature-forest.jpg" alt="black and white landscape of a lake" />
-            <figcaption>UGA College of Agricultural &amp; Environmental Sciences</figcaption>
-         </figure>
-         <div class="card-body">
-            Full front-end design and development, dynamic components, and implementation in Adobe Experience Manager CMS.
-         </div>
-         <a href="#" class="card-button">View Project</a>
+
+      <!-- UI Portfolio Item -->
+      <div class="portfolio-item-list">
+         {% for portfolio-item in site.portfolio-items %}
+            {% if portfolio-item.categories contains 'tesla' %}
+               <div class="card">
+                  {% if portfolio-item.img %}
+                     <a href="{{ portfolio-item.url | prepend: site.baseurl }}"><img class="portfolio-item-image" src="{{ portfolio-item.img }}" /></a>
+                  {% endif %}
+                  <a class="portfolio-item-link" href="{{ portfolio-item.url | prepend: site.baseurl }}">{{ portfolio-item.title }}</a>
+                  <p class="portfolio-item-excerpt">{{ portfolio-item.excerpt }}</p>
+                  <a href="{{ portfolio-item.url | prepend: site.baseurl }}" class="card-button">Read More</a>
+               </div>
+            {% endif %}
+         {% endfor %}
       </div>
 
 
@@ -147,19 +152,20 @@ layout: default
          Case Study:
       </div>
 
-      <!-- Portfolio Card -->
-      <div class="card">
-         <!-- Image & Caption -->
-         <figure>
-            <img src="https://static.pexels.com/photos/2312/sea-black-and-white-nature-forest.jpg" alt="black and white landscape of a lake" />
-            <figcaption>UGA College of Agricultural &amp; Environmental Sciences</figcaption>
-         </figure>
-         <!-- Description -->
-         <div class="card-body">
-            Full front-end design and development, dynamic components, and implementation in Adobe Experience Manager CMS.
-         </div>
-         <!-- Link -->
-         <a href="#" class="card-button">View Project</a>
+      <!-- UX Portfolio Item -->
+      <div class="portfolio-item-list">
+         {% for portfolio-item in site.portfolio-items %}
+            {% if portfolio-item.categories contains 'ux' %}
+               <div class="card">
+                  {% if portfolio-item.img %}
+                     <a href="{{ portfolio-item.url | prepend: site.baseurl }}"><img class="portfolio-item-image" src="{{ portfolio-item.img }}" /></a>
+                  {% endif %}
+                  <a class="portfolio-item-link" href="{{ portfolio-item.url | prepend: site.baseurl }}">{{ portfolio-item.title }}</a>
+                  <p class="portfolio-item-excerpt">{{ portfolio-item.excerpt }}</p>
+                  <a href="{{ portfolio-item.url | prepend: site.baseurl }}" class="card-button">Read More</a>
+               </div>
+            {% endif %}
+         {% endfor %}
       </div>
 
       <div id="devAnchor">
