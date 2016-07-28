@@ -73,7 +73,9 @@ h1 {
    font-family: 'Pier Bold', sans-serif;
 }
 p {
-   font-family: 'Moon', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 1em;
 }
 a {
    color: $dark-gray;
@@ -939,6 +941,45 @@ article.post {
       img {
          width: 100%;
          margin-bottom: 1em;
+      }
+   }
+}
+
+
+// Contact Page Styles
+//-----------------
+.contact-title-section {
+   @include subPageHeadings;
+   .title, .description {
+      text-align: center;
+   }
+   margin: 0 auto 0 auto;
+   text-align: center;
+}
+
+.contact-body-section {
+   @include sectionWidth;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   .section-subtitle {
+      margin-top: 2em;
+   }
+   .contact-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      li a {
+         display: inline-block;
+         padding: 1em;
+         transition: 150ms ease;
+         &:hover {
+            color: $red;
+         }
+      }
+      i {
+         font-size: 3em;
       }
    }
 }
