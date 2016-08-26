@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Chrome, Firefox OS and Opera Theme Options -->
+  <meta name="theme-color" content="#ffffff">
+  <!-- Windows Phone Theme Options -->
+  <meta name="msapplication-navbutton-color" content="#ffffff">
+  <!-- iOS Safari Theme Options -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <title>Usability Improvements for Atom.io</title>
+  <meta name="description" content="While the text editor of choice is a fierce topic of discussion for developers, Atom is I've come to love and use. For this case study, I take a look at the ...">
+
+  <link rel="stylesheet" href="/johnfrench.xyz/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/johnfrench.xyz/portfolio-items/atom.html">
+  <link rel="alternate" type="application/rss+xml" title="John French" href="http://yourdomain.com/johnfrench.xyz/feed.xml">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+  <body>
+
+     <!--
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       *****         ***  ********
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       *****  *****  ***  ********
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Hello, interested person or potential employer!
+       I put this little message here to let you know
+       that I care about the little things, I like to
+       work hard, but I also don't take myself too seriously.
+       If you are interested in working with me, or finding
+       out more about what I do, shoot me an email at
+       hello[at]johnfrench[dot]xyz
+     -->
+
+
+    <header class="site-header">
+
+    <nav class="site-nav">
+      <!-- Large Screen Menu -->
+      <ul class="large-nav show-for-medium-up">
+         <li><a href="/johnfrench.xyz/index.html#designAnchor">Design</a></li>
+         <li><a href="/johnfrench.xyz/index.html#devAnchor">Development</a></li>
+         <li><a href="/johnfrench.xyz/portfolio.html">Portfolio</a></li>
+         <li><a href="/johnfrench.xyz/blog.html">Blog</a></li>
+         <li><a href="/johnfrench.xyz/contact.html">Contact</a></li>
+      </ul>
+      <!-- Small Screen Menu -->
+      <a href="#" class="show-for-small-only toggle-overlay">
+         <span>Menu</span>
+         <!-- Expand Icon. -->
+         <i class="material-icons toggle-arrow">expand_more</i>
+      </a>
+      <div class="small-nav-container show-for-small-only">
+         <ul class="">
+            <li><a href="/johnfrench.xyz/index.html#designAnchor">Design</a></li>
+            <li><a href="/johnfrench.xyz/index.html#devAnchor">Development</a></li>
+            <li><a href="/johnfrench.xyz/portfolio.html">Portfolio</a></li>
+            <li><a href="/johnfrench.xyz/blog.html">Blog</a></li>
+            <li><a href="/johnfrench.xyz/contact.html">Contact</a></li>
+         </ul>
+      </div>
+    </nav>
+
+</header>
+
+
+    <div class="page-content">
+        <article class="portfolio-item">
+   <header class="portfolio-item-header">
+      <h1 class="section-heading">Usability Improvements for Atom.io</h1>
+      <hr />
+   </header>
+   <div class="portfolio-item-content">
+      <p><img src="/johnfrench.xyz/images/portfolio/atom/atom.jpg" alt="Atom Logo" /></p>
+
+<h2 id="description">Description:</h2>
+
+<p>While the text editor of choice is a fierce topic of discussion for developers, Atom is I’ve come to love and use. For this case study, I take a look at the site that promotes Atom and hopefully uncover some difficult-to-spot usability problems, while making the site better and more accesible though my contributions.</p>
+
+<h2 id="challanges">Challanges:</h2>
+
+<ol>
+  <li>Take the current Atom.io page and attempt to understand the goals and aesthetic desisions.</li>
+  <li>With the current design in mind, make usability and accessibility improvements without compromising the vision of the site.</li>
+  <li>Attempt to promote cross-site consistency with elegant solutions.</li>
+</ol>
+
+<h2 id="state-of-the-homepage">State of the Homepage</h2>
+
+<p>Part of what makes this UX audit intersting is that the issues are subtle.  The overall design and aesthetic of this site is beautiful (like most of the things GitHub does). Also, in terms of speed and mobile friendliness, the atom.io homepage scores very high.</p>
+
+<h2 id="homepage-accessibility-problems">Homepage Accessibility Problems</h2>
+
+<p><strong>[Severe] An element’s ID must be unique in the DOM</strong>
+This is a simple one, but I’ve found that a lot of new designers and developers (and even some experienced ones as well) simply miss this.  IDs are for a single, unique element in the DOM, while classes can be for multipe items.  So, if you give an item an ID, you should only have one instance of that ID, even if the duplicate is essentially the same.</p>
+
+<p>In the homepage’s case it appears that the duplicate ID is actually a duplicate element - and it is not apparently clear if it is intentional or not.  But whether duplicating the ID was a concious choice to fix a problem, or simply a duplicate in code - it still would be best to stick to the unique element rule.
+<strong>[Severe] Controls and media elements should have labels (1)</strong>
+These buttons don’t have labels, which can make things tricky with a screen reader.  Can labels be set to be invisible and still be accessible for screen readers?
+<strong>[Warning] Text elements should have a reasonable contrast ratio (14)</strong>
+This is a big one! Can I get a stat about visual impairments? Achromatopsia, for example, is a visual impairment that effects about 1 in every 33,000 people. That might not seem like many, but for a user who has that disorder (or a similar one), proper contrast makes a tremendous difference.<br />
+INCLUDE PICTURE WITH DISABILITY, CURRENT DESKTOP, AND ONE WITH IMPROVED CONTRAST
+<strong>[Warning] The web page should have the content’s human language indicated in the markup (1)</strong></p>
+
+<p>While there were a few more accessibility issues I discovered, I think those were the most noteworthy.  Sometimes with accessibility checking software, you’ll get errors that don’t actually have an impact on the end user, but that the software flags none-the-less.  I heard it said once by someone (I deeply wish I remembered who) that there is no accessibility promised land.  That is so true, as with so much in this field.  It is up to us to make difficult decisions with the best infomation we have and the best stack for the job.  And that is often vastly different between projects.</p>
+
+   </div>
+</article>
+
+    </div>
+
+    <footer class="site-footer">
+   <ul>
+      <li>
+         <a href="/johnfrench.xyz/portfolio.html">
+            <i class="material-icons">work</i>
+            <span>View My Portfolio</span>
+         </a>
+      </li>
+      <li>
+         <a href="mailto:hello@johnfrench.xyz">
+            <i class="material-icons">mail</i>
+            <span>Send Me an Email</span>
+         </a>
+      </li>
+   </ul>
+   <div class="social-section">
+      <ul>
+         <li><a href="http://twitter.com/johnfrenchxyz"><i class="fi-social-twitter"></i></a></li>
+         <li><a href="https://github.com/johnfrenchxyz"><i class="fi-social-github"></i></a></li>
+      </ul>
+   </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="/johnfrench.xyz/js/app.js"></script>
+
+  </body>
+
+</html>
