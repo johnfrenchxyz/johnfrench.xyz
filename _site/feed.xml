@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Aug 2016 22:31:43 -0400</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 22:31:43 -0400</lastBuildDate>
+    <pubDate>Thu, 25 Aug 2016 22:21:32 -0400</pubDate>
+    <lastBuildDate>Thu, 25 Aug 2016 22:21:32 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -87,20 +87,32 @@
 
 &lt;p&gt;While the text editor of choice is a fierce topic of discussion for developers, Atom is I’ve come to love and use. For this case study, I take a look at the site that promotes Atom and hopefully uncover some difficult-to-spot usability problems, while making the site better and more accesible though my contributions.&lt;/p&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;h2 id=&quot;challanges&quot;&gt;Challanges:&lt;/h2&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Take the current Atom.io page and attempt to understand the goals and aesthetic desisions.&lt;/li&gt;
+  &lt;li&gt;With the current design in mind, make usability and accessibility improvements without compromising the vision of the site.&lt;/li&gt;
+  &lt;li&gt;Attempt to promote cross-site consistency with elegant solutions.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h2 id=&quot;state-of-the-homepage&quot;&gt;State of the Homepage&lt;/h2&gt;
 
-&lt;!-- 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
- --&gt;
+&lt;p&gt;Part of what makes this UX audit intersting is that the issues are subtle.  The overall design and aesthetic of this site is beautiful (like most of the things GitHub does). Also, in terms of speed and mobile friendliness, the atom.io homepage scores very high.&lt;/p&gt;
 
+&lt;h2 id=&quot;homepage-accessibility-problems&quot;&gt;Homepage Accessibility Problems&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;[Severe] An element’s ID must be unique in the DOM&lt;/strong&gt;
+This is a simple one, but I’ve found that a lot of new designers and developers (and even some experienced ones as well) simply miss this.  IDs are for a single, unique element in the DOM, while classes can be for multipe items.  So, if you give an item an ID, you should only have one instance of that ID, even if the duplicate is essentially the same.&lt;/p&gt;
+
+&lt;p&gt;In the homepage’s case it appears that the duplicate ID is actually a duplicate element - and it is not apparently clear if it is intentional or not.  But whether duplicating the ID was a concious choice to fix a problem, or simply a duplicate in code - it still would be best to stick to the unique element rule.
+&lt;strong&gt;[Severe] Controls and media elements should have labels (1)&lt;/strong&gt;
+These buttons don’t have labels, which can make things tricky with a screen reader.  Can labels be set to be invisible and still be accessible for screen readers?
+&lt;strong&gt;[Warning] Text elements should have a reasonable contrast ratio (14)&lt;/strong&gt;
+This is a big one! Can I get a stat about visual impairments? Achromatopsia, for example, is a visual impairment that effects about 1 in every 33,000 people. That might not seem like many, but for a user who has that disorder (or a similar one), proper contrast makes a tremendous difference.&lt;br /&gt;
+INCLUDE PICTURE WITH DISABILITY, CURRENT DESKTOP, AND ONE WITH IMPROVED CONTRAST
+&lt;strong&gt;[Warning] The web page should have the content’s human language indicated in the markup (1)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While there were a few more accessibility issues I discovered, I think those were the most noteworthy.  Sometimes with accessibility checking software, you’ll get errors that don’t actually have an impact on the end user, but that the software flags none-the-less.  I heard it said once by someone (I deeply wish I remembered who) that there is no accessibility promised land.  That is so true, as with so much in this field.  It is up to us to make difficult decisions with the best infomation we have and the best stack for the job.  And that is often vastly different between projects.&lt;/p&gt;
 </description>
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/atom.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/atom.html</guid>
