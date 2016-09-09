@@ -23,11 +23,11 @@ This case study is representative of the atom.io site as it exists in the Fall o
 2. With the current design in mind, make small usability and accessibility improvements without compromising the vision of the site.
 3. Attempt to promote cross-site consistency with simple solutions, and bring more functionality to more users.
 
-## State of the Homepage
+## State of the Homepage:
 
 Part of what makes this UX audit intersting is that the issues are subtle.  Some would probably argue that they are even negligable.  But, to me, **good usability lives in studying the negligable**.  You know, those little features or interactions that subtly drive you crazy each time they happen, but are not big enough to make you delete the app or find a different favorite site.  The overall design and aesthetic of this site is beautiful (like most of the things GitHub does). Also, in terms of speed and mobile friendliness, the atom.io homepage acheives great scores.  So, what's the problem?  I think making a few small (and a few big) changes could result in a drastic improvement to the site that I have already come to love so much.
 
-## Global Consistency
+## Global Consistency:
 
 From my analysis of atom.io, I feel that the single biggest improvement would come from global consistency across the various pages of their site.  Currently, the homepage exists as a mobile friendly site that is great to use, and consistent in look and feel to the desktop version.
 
@@ -54,11 +54,11 @@ Improving the packages page would be as "simple" as collapsing the collumns of s
 - Enable gzip compression for all HTTP requests on your server.  This can be particularly helpful to users on mobile devices, because the faster you are able to load elements of your site, the better the experience will be.  [Read about how to enable compression on your server here](https://developers.google.com/speed/docs/insights/EnableCompression).
 
 
-## Homepage Accessibility Problems
+## Homepage Accessibility Problems:
 
 I read a quote once, and I am embarrased to say I did not write down it's author, but the summary of the thought was, "There is no accessibility promised land in software."  While it is our responsibility as developers to help **all users** access our software, the best-practices of accessibility will always be changing because technology is always changing.  So, the best thing we can do is familiarize ourselves with the current standards to the best of our ability, and then take small steps to push our code and our interfaces to meet those standards.  As they change and adapt, so should we, because everyone deserves fair and equal access to content.  Atom.io, has definitely taken steps to be an accessible site, and I don't want to give the impression that they haven't - but I have identified some room for improvement, and I hope to use those as an educational exercise in this case study.
 
-**[Severe] Controls and media elements should have labels (1)**
+### Controls and media elements should have labels:
 
 In a way, HTML labels represent an abstract tension between "good design" and "accessible web sites."  A lot of designers I talk to sometimes feel limited in what they are able to do creatively because of usability restrictions.  While I understand that feeling in some ways, I think that **if design is meant to impact people, then good web design should be usable for everyone, in order to impact the largest possible audience.  Good design and accessibility are not mutually exclusive.**  Not having a label on a media or form element is bad for users who rely on screen readers, because it might make it difficult to understand what the element does, or how it functions in the larger context of the site.  But sometimes, a label might get in the way of the design you want to create.  Take this example from Atom.io:
 
@@ -66,7 +66,7 @@ In a way, HTML labels represent an abstract tension between "good design" and "a
 
 The element that is missing the label is the play button in the circle on the right of the image above.  When you examine this page with a screen reader (in my case, I did a test with ChromeVox) all you hear it say is, "button," which creates obvious confusion and a lack of context.  Now, I agree completely with the instinct of the designer to not have a visible text label because it would ruin the aesthetic effect that the circle creates in the layout.  A good fix for something like this would be to have a label, but only make it "visible" (or readable) for screen readers.  For more information on how to create a fix this, [check out this article on invisible text for screen readers](http://webaim.org/techniques/css/invisiblecontent/).     
 
-**[Warning] Text elements should have a reasonable contrast ratio (14)**
+### Text elements should have a reasonable contrast ratio:
 
 This is a big one! [According to the World Health Organization](http://www.who.int/mediacentre/factsheets/fs282/en/), "285 million people are estimated to be visually impaired worldwide: 39 million are blind and 246 million have low vision." Furthermore, colorblindness and related disorders make up an even larger segment of the population. Achromatopsia, for example, is a visual impairment that effects about 1 in every 33,000 people. That might not seem like many, but for a user who has that disorder (or a similar one), proper contrast makes a tremendous difference.  One of the biggest ways I see this come up is in contrast between backgrounds and text elements.  If the contrast is not significant enough, it can become very difficult for some user to distinguish.  Here is an example from the homepage of atom.io as it currently exists:
 
@@ -80,21 +80,22 @@ Without the help of color to distinguish elements, the contrast alone is not suf
 
 I beleive that it is best-practice to start mocking up your designs with proper contrast ratios in mind, as it will save you from having to fix these problems later.  I've seen some suggestions of developers providing an alternate version of their page, with a more accessible color palate or a text-only version of the content.  While I can't argue that this solution may be effective in many cases, I would ask that developers include people with visual disabilities or impairments in their user testing for making these decisions.  Sometimes, if accessibility is not a priority, these alternate versions of sites can fall behind in maintenence, and the message the user would subconsciously receive in visiting a poorly maintained version of a site, is that their experience is less important than the average user.  It is absolutely imperative that we consider the emotional implications of our design for all users.
 
-**[Warning] The web page should have the content's human language indicated in the markup (1)**
+### The web page should have the content's human language indicated in the markup:
 
 Declaring the human language on your page is important for many reasons, but for accessibility, it can effect the way certain readers like braille readers interact with the content of the page.  This is probably the simplest problem on this list to fix, so build it into your workflow and it will likely come in handy in the future. It can be remedied by adding a single attribute to the HTML tag.
 
 ```html
+<!-- Set the language -->
 <html lang="en">
 ```
 
 The "en" stands for "English," but you should obviously use the language code that matches your page's language.
 
 
-**Wrapping Up:**
+### Wrapping Up:
 
 While there were a few more accessibility issues I discovered, I think these were the most noteworthy.  Sometimes with accessibility checking software, you'll get errors that don't actually have an impact on the end user, but that the software flags none-the-less.  And therein lies what I beleive to be the overarching theme of this case study:
 
-**Building a usable site is an ongoing process, even after a site is launched.**
+### Building a usable site is an ongoing process, even after a site is launched:
 
 While we as designers and developers can do a lot to ensure that our sites will be useable for everyone, we will inevitably make mistakes, technology will change and present new challanges, and we will constantly be learning techniques.  So, if accessibility isn't a part of your initial design process, start to think about ways in which it can be implemented.  If usability audits or testing don't happen until after you're site is launched, maybe consider doing them much, much sooner.  I find it is the small, ongoing changes that can really make a difference.  In the same way that you might be constantly tweaking code to make it faster, or constantly altering a design to get it pixel-perfect, I encourage everyone to tinker frequently with usability and accessibility in their site.
