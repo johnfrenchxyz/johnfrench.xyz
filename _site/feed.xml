@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Sep 2016 08:35:07 -0400</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2016 08:35:07 -0400</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2016 09:15:54 -0400</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2016 09:15:54 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -185,6 +185,60 @@
         <category>design</category>
         
         <category>atom</category>
+        
+      </item>
+    
+      <item>
+        <title>UGA CAES Redesign</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/caes/UGA-CAES-portfolio.png&quot; alt=&quot;Growing grapes advertising the UGA College of Ag and Environmental Sciences&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;skip to the links&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
+  &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
+  &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-homepage&quot;&gt;The Homepage:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-components&quot;&gt;The Components:&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-to-adobe-experience-manager&quot;&gt;Building to Adobe Experience Manager:&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;as-a-platform-for-training&quot;&gt;As a platform for training:&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>UGA</category>
+        
+        <category>CAES</category>
         
       </item>
     
