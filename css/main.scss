@@ -818,6 +818,30 @@ article.portfolio-item {
    }
 }
 
+// Portfolio Button
+@mixin portfolioButton($background, $color, $hover-bg, $hover-color) {
+    display: block;
+    background: $background;
+    color: $color;
+    min-height: 3em;
+    padding: 1.5em;
+    text-decoration: none;
+    font-family: $pier;
+    font-weight: bold;
+    text-align: center;
+    transition: 200ms;
+    &:hover {
+        background: $hover-bg;
+        color: $hover-color;
+    }
+}
+
+.portfolio-button {
+    @include portfolioButton($dark-gray, $white, $red, $white);
+}
+.portfolio-button-github {
+    @include portfolioButton($white, $dark-gray, $red, $white);
+}
 
 
 // Blog Page Styles
