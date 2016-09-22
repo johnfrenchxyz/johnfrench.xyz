@@ -4,7 +4,7 @@ title:  "Accessible Code Coloring for Jekyll"
 date:   2016-07-25 11:39:32 -0400
 categories: ux design atom
 img: images/portfolio/code/code-coloring.png
-excerpt: LSharing code is important. Whether it is a blog post or documentation, having clear code examples is fundamentally important to communication in the developer ecosystem.  That is why I feel it is paramount that these code samples meet modern accessibility standards.  For code samples, contrast is particularly important.  That is why I developed a CSS code theme that meets contrast standards.
+excerpt: Sharing code is important. Whether it is a blog post or documentation, having clear code examples is fundamentally important to communication in the developer ecosystem.  That is why I feel it is paramount that these code samples meet modern accessibility standards.  For code samples, contrast is particularly important.  That is why I developed a CSS code theme that meets contrast standards.
 ---
 
 ![Color swatches]( {{site.baseurl}}/images/portfolio/code/code-coloring.png )
