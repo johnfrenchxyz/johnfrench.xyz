@@ -24,7 +24,7 @@ After my work on this program, I was promoted to be lead Web Developer for the U
 
 One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.
 
-<a href="https://www.johnfrenchxyz.github.io/walkgeorgia/" class="portfolio-button">View the Design Mockup</a>
+<a href="https://johnfrenchxyz.github.io/walkgeorgia/" class="portfolio-button">View the Design Mockup</a>
 
 *Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.*
 
