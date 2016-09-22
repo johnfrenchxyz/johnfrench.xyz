@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 13:08:21 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 13:08:21 -0400</lastBuildDate>
+    <pubDate>Thu, 22 Sep 2016 16:38:47 -0400</pubDate>
+    <lastBuildDate>Thu, 22 Sep 2016 16:38:47 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -356,8 +356,6 @@
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/code-coloring.html</guid>
         
         
-        <category>ux</category>
-        
         <category>design</category>
         
         <category>atom</category>
@@ -387,8 +385,6 @@
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/netc.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/netc.html</guid>
         
-        
-        <category>ux</category>
         
         <category>design</category>
         
@@ -496,8 +492,6 @@
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</guid>
         
-        
-        <category>ux</category>
         
         <category>design</category>
         

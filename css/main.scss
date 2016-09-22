@@ -1020,6 +1020,9 @@ article.post {
 
 // Code Coloring for posts
 //------------------------
+.language-html {
+    min-width: 0;
+}
 
 // Dev Drawing
 // $comment-color: #95989A;
@@ -1047,6 +1050,15 @@ $keyword-declaration-color: #A09ED5;
     color: $white;
     margin: 1em 0 2em 0;
     font-size: 1.2em;
+    // For Small:
+    @media #{$phone} {
+       font-size: .8rem;
+       overflow: hidden;
+       white-space: pre-wrap;
+    }
+    code {
+        overflow: hidden;
+    }
     // Code Coloring:
     //---------------
         .c     { color: $comment-color; font-style: italic }            // Comment
