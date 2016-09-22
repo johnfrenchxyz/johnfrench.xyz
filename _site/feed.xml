@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 09:50:34 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 09:50:34 -0400</lastBuildDate>
+    <pubDate>Thu, 22 Sep 2016 13:03:25 -0400</pubDate>
+    <lastBuildDate>Thu, 22 Sep 2016 13:03:25 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -459,6 +459,49 @@
         <category>design</category>
         
         <category>tesla</category>
+        
+      </item>
+    
+      <item>
+        <title>Walk Georgia</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
+
+&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
+  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
+  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
+
+&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
+
+&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
+</description>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</guid>
+        
+        
+        <category>ux</category>
+        
+        <category>design</category>
+        
+        <category>atom</category>
         
       </item>
     
