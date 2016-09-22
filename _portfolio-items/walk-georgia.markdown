@@ -2,7 +2,7 @@
 layout: portfolio-item
 title:  "Walk Georgia"
 date:   2016-07-25 11:39:32 -0400
-categories: ux design atom
+categories: design atom
 img: images/portfolio/walk-georgia/walk-georgia.JPG
 excerpt: Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.
 ---
