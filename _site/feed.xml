@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 16:38:47 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 16:38:47 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 09:07:09 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 09:07:09 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -488,6 +488,22 @@
 &lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
 
 &lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
+
+&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
 </description>
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</guid>
