@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 09:07:09 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 09:07:09 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 10:30:19 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 10:30:19 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -231,6 +231,8 @@
 &lt;h2 id=&quot;modular-component-design&quot;&gt;Modular Component Design:&lt;/h2&gt;
 
 &lt;p&gt;We wanted to make creating new sites, pages, and content as easy as possible for content managers.  Due to the nature of the faculty/staff at the University of Georgia, most of the people who are in charge of maintaining a web page have had no formal web design training.  With  the use of Adobe Experience Manager, we thoughtfully designed an entire toolset for our content managers so that they can simply drag, drop, and customize components to create pages.  We have designed and implemented everything from layout and column control components to lists that display personnel or a simple YouTube component.  &lt;a href=&quot;http://www.johnfrenchxyz.github.io/UGA/&quot;&gt;A complete list of the components can be found here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/caes/caes-components.png&quot; alt=&quot;A screenshot of the CAES Event Sidebar Component&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
 </description>
         <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</link>
         <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</guid>

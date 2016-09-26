@@ -19,9 +19,9 @@ As the lead web developer, my responsibility was to take the initial template cr
 
 ## Challenges:
 
-1. Sheer volume.  As with many large-scale websites, the UGA CAES network has thousands upon thousands of pages and individual users, some of whom rely on daily access to our site in order to do their jobs.  Our update, therefore, had to be pushed out without interrupting current services. It was also imperative that we provided thorough documentation and training to our internal staff.
-2. After the audit, we had to develop a new template that met all the guidelines of a modern web platform.  Once the design was in place, I was responsible for taking the mockups and converting them into a function HTML/CSS/JS template for review.  It was my responsibility to make sure everything was usable and accessible, and could fit clearly into the responsive nature of the new site.
-3. Once the template was completed, we had to develop dozens of individual page components that would eventually be used by admins to add content to their sites and pages.
+1.  Sheer volume.  As with many large-scale websites, the UGA CAES network has thousands upon thousands of pages and individual users, some of whom rely on daily access to our site in order to do their jobs.  Our update, therefore, had to be pushed out without interrupting current services. It was also imperative that we provided thorough documentation and training to our internal staff.
+2.  After the audit, we had to develop a new template that met all the guidelines of a modern web platform.  Once the design was in place, I was responsible for taking the mockups and converting them into a function HTML/CSS/JS template for review.  It was my responsibility to make sure everything was usable and accessible, and could fit clearly into the responsive nature of the new site.
+3.  Once the template was completed, we had to develop dozens of individual page components that would eventually be used by admins to add content to their sites and pages.
 
 ## The Starting Point:
 
@@ -45,4 +45,6 @@ Lastly, we solved another architectural problem related to the storage of images
 
 ## Modular Component Design:
 
-We wanted to make creating new sites, pages, and content as easy as possible for content managers.  Due to the nature of the faculty/staff at the University of Georgia, most of the people who are in charge of maintaining a web page have had no formal web design training.  With  the use of Adobe Experience Manager, we thoughtfully designed an entire toolset for our content managers so that they can simply drag, drop, and customize components to create pages.  We have designed and implemented everything from layout and column control components to lists that display personnel or a simple YouTube component.  [A complete list of the components can be found here](http://www.johnfrenchxyz.github.io/UGA/). 
+We wanted to make creating new sites, pages, and content as easy as possible for content managers.  Due to the nature of the faculty/staff at the University of Georgia, most of the people who are in charge of maintaining a web page have had no formal web design training.  With  the use of Adobe Experience Manager, we thoughtfully designed an entire toolset for our content managers so that they can simply drag, drop, and customize components to create pages.  We have designed and implemented everything from layout and column control components to lists that display personnel or a simple YouTube component.  [A complete list of the components can be found here](http://www.johnfrenchxyz.github.io/UGA/).
+
+![A screenshot of the CAES Event Sidebar Component]( {{site.baseurl}}/images/portfolio/caes/caes-components.png ){: .center-img }
