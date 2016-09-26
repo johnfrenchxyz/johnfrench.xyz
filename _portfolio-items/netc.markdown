@@ -1,17 +1,19 @@
 ---
 layout: portfolio-item
-title:  "NETC 2016 Design & Development"
+title:  "NETC 2017 Design & Development"
 date:   2016-07-25 11:39:32 -0400
 categories: design development
-img: images/portfolio/netc/netc2017.jpg
+img: images/portfolio/netc/netc2017.png
 excerpt: The National Extension Technology Conference is a yearly gathering of IT professionals from across the United States.  I was tasked with quickly developing a promotional site that would subsequently be used for registration and general communication about the conference.  I decided to conduct an experiment with the design in which I  attempt to create an accessible interface that mimicked some current design trends where accessibility is often ignored.
 ---
 
-![A computer, smartphone, and notes sit on a table]( {{site.baseurl}}/images/portfolio/netc/netc2017.jpg )
+![A computer, smartphone, and notes sit on a table]( {{site.baseurl}}/images/portfolio/netc/netc2017.png )
 
 ## Description:
 
 The National Extension Technology Conference is a yearly gathering of IT professionals from across the United States.  I was tasked with quickly developing a promotional site that would subsequently be used for registration and general communication about the conference.  I decided to conduct an experiment with the design in which I  attempt to create an accessible interface that mimicked some current design trends where accessibility is often ignored.
+
+![A screenshot of the NETC2017 website layout]( {{site.baseurl}}/images/portfolio/netc/netc-screenshot.png )
 
 <a href="https://johnfrenchxyz.github.io/NETC/" class="portfolio-button">View the NETC 2017 Site</a>
 

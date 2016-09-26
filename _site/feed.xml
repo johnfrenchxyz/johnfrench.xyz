@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 10:30:19 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 10:30:19 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 11:02:43 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 11:02:43 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -365,12 +365,14 @@
       </item>
     
       <item>
-        <title>NETC 2016 Design &amp; Development</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc2017.jpg&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
+        <title>NETC 2017 Design &amp; Development</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc2017.png&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
 
 &lt;p&gt;The National Extension Technology Conference is a yearly gathering of IT professionals from across the United States.  I was tasked with quickly developing a promotional site that would subsequently be used for registration and general communication about the conference.  I decided to conduct an experiment with the design in which I  attempt to create an accessible interface that mimicked some current design trends where accessibility is often ignored.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc-screenshot.png&quot; alt=&quot;A screenshot of the NETC2017 website layout&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/NETC/&quot; class=&quot;portfolio-button&quot;&gt;View the NETC 2017 Site&lt;/a&gt;&lt;/p&gt;
 
