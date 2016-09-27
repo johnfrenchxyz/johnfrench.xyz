@@ -2,7 +2,7 @@
 layout: portfolio-item
 title:  "UGA CAES Redesign"
 date:   2016-07-25 11:39:32 -0400
-categories: design UGA CAES
+categories: design UGA caes
 img: images/portfolio/caes/UGA-CAES-portfolio.png
 excerpt: The web presence of the College of Agricultural & Environmental Sciences at the University of Georgia is a complex network of sites, pages, and databases that was in dire need of a massive overhaul.  Through in-depth research audits, UI/UX redesign, thoughtful web development choices in line with modern standards, and extensive testing, we were able to completely repackage and re-deliver both the public facing site as well as the internal CMS.
 ---
