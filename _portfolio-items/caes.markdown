@@ -13,7 +13,7 @@ excerpt: The web presence of the College of Agricultural & Environmental Science
 
 As the lead web developer, my responsibility was to take the initial template created by the design team and make recommendations about adherence to modern web development standards.  Once the design was finalized, I was responsible for converting the PDF mockups into functional HTML/CSS/JS pages.  Lastly, I assisted in converting those pages into our Java-based CMS, Adobe Experience Manager and assisted with testing, bug fixes and maintenance.  
 
-*Status: The site is currently in internal use only and is scheduled for launch at the beginning of November. The final stages of mockups can be showed below.  Additional, because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.*
+*Status: The site is currently in internal use only and is scheduled for launch at the beginning of November. The final stages of mockups can be showed below.  Additionally, because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.*
 
 <a href="http://johnfrenchxyz.github.io/UGA/" class="portfolio-button">View the CAES Redesign Elements (Mockups)</a>
 
