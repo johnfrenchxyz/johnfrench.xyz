@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 10:54:02 -0400</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 10:54:02 -0400</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 11:02:55 -0400</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 11:02:55 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -78,6 +78,38 @@
         
       </item>
     
+    
+      <item>
+        <title>NETC 2017 Design &amp; Development</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc2017.png&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;The National Extension Technology Conference is a yearly gathering of IT professionals from across the United States.  I was tasked with quickly developing a promotional site that would subsequently be used for registration and general communication about the conference.  I decided to conduct an experiment with the design in which I  attempt to create an accessible interface that mimicked some current design trends where accessibility is often ignored.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc-screenshot.png&quot; alt=&quot;A screenshot of the NETC2017 website layout&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/NETC/&quot; class=&quot;portfolio-button&quot;&gt;View the NETC 2017 Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Unfortunately, because this project for the University of Georgia, the GitHub repo must remain private, but you can view the source code by visiting the site itself.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the interesting aspects of creating this particular template was playing with acceptable color contrast ratios.  Because I was tasked with the design of the site (as well as the development), I decided to test a running theory I had.  So often I see websites winning awards or receiving widespread recognition for their design, when the foundation of that design is built upon color schemes that do not meet modern guidelines for proper accessibility.  While the sites are often undeniably beautiful, they take a “shortcut” to get there based on a path of least resistance.&lt;/p&gt;
+
+&lt;p&gt;Many modern design trends feature color schemes where a light pastel is paired with text of a very similar shade.  To a person with no visual impairments, this creates a beautiful effect.  But that same text can be completely unreadable for a large percentage of users.  The same can be said of font-size, or decisions to place text above areas in an image where it can become washed out or difficult to read.  When I discuss this with designers and express the importance of inclusive design, I am often met with understandable frustration.  What I mean is that, for most designers, their job is to create beautiful things.  While the web is often the pathway by which we have access to beautiful things, it’s primary purpose (most oftenly) is a platform, or tool for a user to get information or to complete a task.  User Experience is a discipline on top of that goal that can then seek to make our interfaces as beautiful and functional as possible.  For the developer, this may mean making a page load as quickly and efficiently as possible. Or coming up with an algorithm that can infer certain details to save the user time.  So, while I understand the frustration of designers and developers who simply want to make beautiful things as they see them, there are many who may be unable to use or experience those things in the same way.  I believe that type of empathy in design takes time to learn, and it is never completely accomplished.  That is one of the reasons that diversity in design and development teams is so important, to offer a more complete picture of all possible users.&lt;/p&gt;
+
+&lt;p&gt;Yet, I have a sinking suspicion that beautiful interfaces and rich color schemes and accessibility don’t have to be mutually exclusive.  Often, the sites that tout accessibility or inclusive design would not win an award for groundbreaking aesthetic experimentation - perhaps rightly so - because that is neither their purpose nor their endeavor.  But as someone who has a passion both for beautiful, aesthetically pleasing websites and accessibility, I wanted to see if I could come up with a color scheme that mimicked some of these design trends I am seeing, while still maintaining proper contrast ratios and font-sizes.  This website for the NETC 2017 served as my guinea pig of sorts.  While I do not think it is perfect, I do think that it is an indication that if usability, inclusive design, and accessibility are built into the fabric of your product from day one, then the best practices don’t become a hinderance, but rather an advantage (as best practices are designed to do).  If we can make sites that look beautiful and work efficiently for the largest possible percentage of the population, I believe that is something to strive for.  And we need to be able to fail gracefully and publically in order to learn and correct our own misconceptions.&lt;/p&gt;
+
+&lt;p&gt;The site is built using HTML/CSS/JS and the Jekyll templating engine.&lt;/p&gt;
+</description>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/1-netc.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/1-netc.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>Usability Improvements for Atom.io</title>
@@ -176,8 +208,8 @@
 
 &lt;p&gt;While we as designers and developers can do a lot to ensure that our sites will be useable for everyone, we will inevitably make mistakes, technology will change and present new challanges, and we will constantly be learning techniques.  So, if accessibility isn’t a part of your initial design process, start to think about ways in which it can be implemented.  If usability audits or testing don’t happen until after you’re site is launched, maybe consider doing them much, much sooner.  I find it is the small, ongoing changes that can really make a difference.  In the same way that you might be constantly tweaking code to make it faster, or constantly altering a design to get it pixel-perfect, I encourage everyone to tinker frequently with usability and accessibility in their site.&lt;/p&gt;
 </description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/atom.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/atom.html</guid>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/2-atom.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/2-atom.html</guid>
         
         
         <category>ux</category>
@@ -234,15 +266,15 @@
 
 &lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/caes/caes-components.png&quot; alt=&quot;A screenshot of the CAES Event Sidebar Component&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
 </description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/caes.html</guid>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/3-caes.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/3-caes.html</guid>
         
         
         <category>design</category>
         
         <category>UGA</category>
         
-        <category>CAES</category>
+        <category>caes</category>
         
       </item>
     
@@ -354,8 +386,131 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/code-coloring.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/code-coloring.html</guid>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/4-code-coloring.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/4-code-coloring.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>atom</category>
+        
+      </item>
+    
+      <item>
+        <title>Tesla Motors Mobile UI Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-modelx.jpg&quot; alt=&quot;Tesla Model X&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;There are few companies I respect more than Tesla.  The cars that they create are beautiful in both form and function, and their commitment to fostering sustainable energy is above admirable.  I began following them as an admirer, and now I don’t think I will be able to justify buying a new car unless it is a Model 3.  When I find a company that I respect this deeply, I almost immediately start analyzing their website for insights on design, architecture, and best practices.&lt;/p&gt;
+
+&lt;p&gt;While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
+  &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
+  &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;teslas-current-mobile-homepage&quot;&gt;Tesla’s Current Mobile Homepage:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a screen capture of Tesla’s current mobile site (as of July of 2016).  It is by no means displeasing, but when it is compared to the desktop site - the layout and user experience feel lackluster.  To get started, I’ll show you the large, scrolling mockup I have created.  It provides all navigational and functional options of Tesla’s current mobile site, as well as its desktop experience as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-interface&quot;&gt;The Interface:&lt;/h3&gt;
+
+&lt;p&gt;As you can see from the first screenshot, the current Tesla mobile site feels almost like a fallback in comparison to the desktop site.  If a user goes to the desktop site first, and then later visits teslamotors.com on their mobile device, they may be underwhelmed by the difference in experience.  I am a firm believer that, despite the small screen size, a mobile interface can be just as rich and compelling as a desktop interface.&lt;/p&gt;
+
+&lt;p&gt;My addition of diagonal blocks and lines also breaks from the traditional box model of many modern web layouts, which serves to further illustrate the way that Tesla is far more than simply another car company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hamburger-menu&quot;&gt;The Hamburger Menu:&lt;/h3&gt;
+
+&lt;p&gt;In the current Tesla mobile site, they are using the “E” of the Tesla logo, or “3” as in “Model 3” for their hamburger menu icon, due to the similarity in shape.  From a branding perspective, I understand this practice, however, by their very nature, hamburger menus obfuscate content.  Now that hamburger menus have been adopted by Google in their material design design framework, they have a certain level of ubiquity that offsets usability problems with hiding nav items, but because some users aren’t incredibly familiar with hamburger menus to begin with, I thought it would be a more user-focused decision to use a typical hamburger icon.  Using a traditional icon also has the added bonus of being easier to animate for into an “x” for closing the menu.  Currently, on the Tesla mobile site, clicking on the hamburger icon activates an off-canvas menu, but the icon does not change or give the user any indication of how they may close the menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-navigation&quot;&gt;Mobile Navigation:&lt;/h3&gt;
+
+&lt;p&gt;The changes I brought to the mobile navigation help visually break up the different sections of the Tesla website, which would help first-time users be able to navigate the site with more confidence.  Additionally, the highlighted “Shop” and “My Tesla” buttons at the bottom of the navigation stick out far more than on the current navigation and draw more attention to two of the more important links in the navigation list.  In particular, the red “My Tesla” button creates a distinct target for users that frequently come back to that portion of the website.  Lastly, the typography in this mockup is significantly larger than the text in Tesla’s current off-canvas menu, which would help users with visual impairments see the navigation items better, and users with physical impairments to select the intended navigation item with ease.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsive-scalability&quot;&gt;Responsive Scalability:&lt;/h3&gt;
+
+&lt;p&gt;While their are advantages and disadvantages to responsive design versus separate desktop, tablet, and mobile sites, I believe that the user interface design should be consistent across all platforms and devices, while still highlighting the benefits of each device (touch functionality, etc.).  Below are the tablet and desktop variations of the site.  You can see how the navigation and content change slightly to accommodate the screen size, yet still remain true to the look and feel of the mobile mockup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-desktop.png&quot; alt=&quot;My mockup of Tesla.com desktop layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+</description>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/5-tesla.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/5-tesla.html</guid>
+        
+        
+        <category>UI</category>
+        
+        <category>design</category>
+        
+        <category>tesla</category>
+        
+      </item>
+    
+      <item>
+        <title>Walk Georgia</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
+
+&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
+  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
+  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
+
+&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
+
+&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
+
+&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
+</description>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/6-walk-georgia.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/6-walk-georgia.html</guid>
         
         
         <category>design</category>
@@ -418,163 +573,8 @@
 
 &lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/Extension/county-template/&quot; class=&quot;portfolio-button&quot;&gt;View Homepage Mockup&lt;/a&gt;&lt;/p&gt;
 </description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/extension.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/extension.html</guid>
-        
-        
-        <category>design</category>
-        
-        <category>atom</category>
-        
-      </item>
-    
-      <item>
-        <title>NETC 2017 Design &amp; Development</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc2017.png&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;The National Extension Technology Conference is a yearly gathering of IT professionals from across the United States.  I was tasked with quickly developing a promotional site that would subsequently be used for registration and general communication about the conference.  I decided to conduct an experiment with the design in which I  attempt to create an accessible interface that mimicked some current design trends where accessibility is often ignored.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/netc/netc-screenshot.png&quot; alt=&quot;A screenshot of the NETC2017 website layout&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/NETC/&quot; class=&quot;portfolio-button&quot;&gt;View the NETC 2017 Site&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Unfortunately, because this project for the University of Georgia, the GitHub repo must remain private, but you can view the source code by visiting the site itself.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the interesting aspects of creating this particular template was playing with acceptable color contrast ratios.  Because I was tasked with the design of the site (as well as the development), I decided to test a running theory I had.  So often I see websites winning awards or receiving widespread recognition for their design, when the foundation of that design is built upon color schemes that do not meet modern guidelines for proper accessibility.  While the sites are often undeniably beautiful, they take a “shortcut” to get there based on a path of least resistance.&lt;/p&gt;
-
-&lt;p&gt;Many modern design trends feature color schemes where a light pastel is paired with text of a very similar shade.  To a person with no visual impairments, this creates a beautiful effect.  But that same text can be completely unreadable for a large percentage of users.  The same can be said of font-size, or decisions to place text above areas in an image where it can become washed out or difficult to read.  When I discuss this with designers and express the importance of inclusive design, I am often met with understandable frustration.  What I mean is that, for most designers, their job is to create beautiful things.  While the web is often the pathway by which we have access to beautiful things, it’s primary purpose (most oftenly) is a platform, or tool for a user to get information or to complete a task.  User Experience is a discipline on top of that goal that can then seek to make our interfaces as beautiful and functional as possible.  For the developer, this may mean making a page load as quickly and efficiently as possible. Or coming up with an algorithm that can infer certain details to save the user time.  So, while I understand the frustration of designers and developers who simply want to make beautiful things as they see them, there are many who may be unable to use or experience those things in the same way.  I believe that type of empathy in design takes time to learn, and it is never completely accomplished.  That is one of the reasons that diversity in design and development teams is so important, to offer a more complete picture of all possible users.&lt;/p&gt;
-
-&lt;p&gt;Yet, I have a sinking suspicion that beautiful interfaces and rich color schemes and accessibility don’t have to be mutually exclusive.  Often, the sites that tout accessibility or inclusive design would not win an award for groundbreaking aesthetic experimentation - perhaps rightly so - because that is neither their purpose nor their endeavor.  But as someone who has a passion both for beautiful, aesthetically pleasing websites and accessibility, I wanted to see if I could come up with a color scheme that mimicked some of these design trends I am seeing, while still maintaining proper contrast ratios and font-sizes.  This website for the NETC 2017 served as my guinea pig of sorts.  While I do not think it is perfect, I do think that it is an indication that if usability, inclusive design, and accessibility are built into the fabric of your product from day one, then the best practices don’t become a hinderance, but rather an advantage (as best practices are designed to do).  If we can make sites that look beautiful and work efficiently for the largest possible percentage of the population, I believe that is something to strive for.  And we need to be able to fail gracefully and publically in order to learn and correct our own misconceptions.&lt;/p&gt;
-
-&lt;p&gt;The site is built using HTML/CSS/JS and the Jekyll templating engine.&lt;/p&gt;
-</description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/netc.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/netc.html</guid>
-        
-        
-        <category>design</category>
-        
-        <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>Tesla Motors Mobile UI Design</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-modelx.jpg&quot; alt=&quot;Tesla Model X&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;There are few companies I respect more than Tesla.  The cars that they create are beautiful in both form and function, and their commitment to fostering sustainable energy is above admirable.  I began following them as an admirer, and now I don’t think I will be able to justify buying a new car unless it is a Model 3.  When I find a company that I respect this deeply, I almost immediately start analyzing their website for insights on design, architecture, and best practices.&lt;/p&gt;
-
-&lt;p&gt;While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience.&lt;/p&gt;
-
-&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
-  &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
-  &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;teslas-current-mobile-homepage&quot;&gt;Tesla’s Current Mobile Homepage:&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a screen capture of Tesla’s current mobile site (as of July of 2016).  It is by no means displeasing, but when it is compared to the desktop site - the layout and user experience feel lackluster.  To get started, I’ll show you the large, scrolling mockup I have created.  It provides all navigational and functional options of Tesla’s current mobile site, as well as its desktop experience as well.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-interface&quot;&gt;The Interface:&lt;/h3&gt;
-
-&lt;p&gt;As you can see from the first screenshot, the current Tesla mobile site feels almost like a fallback in comparison to the desktop site.  If a user goes to the desktop site first, and then later visits teslamotors.com on their mobile device, they may be underwhelmed by the difference in experience.  I am a firm believer that, despite the small screen size, a mobile interface can be just as rich and compelling as a desktop interface.&lt;/p&gt;
-
-&lt;p&gt;My addition of diagonal blocks and lines also breaks from the traditional box model of many modern web layouts, which serves to further illustrate the way that Tesla is far more than simply another car company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-hamburger-menu&quot;&gt;The Hamburger Menu:&lt;/h3&gt;
-
-&lt;p&gt;In the current Tesla mobile site, they are using the “E” of the Tesla logo, or “3” as in “Model 3” for their hamburger menu icon, due to the similarity in shape.  From a branding perspective, I understand this practice, however, by their very nature, hamburger menus obfuscate content.  Now that hamburger menus have been adopted by Google in their material design design framework, they have a certain level of ubiquity that offsets usability problems with hiding nav items, but because some users aren’t incredibly familiar with hamburger menus to begin with, I thought it would be a more user-focused decision to use a typical hamburger icon.  Using a traditional icon also has the added bonus of being easier to animate for into an “x” for closing the menu.  Currently, on the Tesla mobile site, clicking on the hamburger icon activates an off-canvas menu, but the icon does not change or give the user any indication of how they may close the menu.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mobile-navigation&quot;&gt;Mobile Navigation:&lt;/h3&gt;
-
-&lt;p&gt;The changes I brought to the mobile navigation help visually break up the different sections of the Tesla website, which would help first-time users be able to navigate the site with more confidence.  Additionally, the highlighted “Shop” and “My Tesla” buttons at the bottom of the navigation stick out far more than on the current navigation and draw more attention to two of the more important links in the navigation list.  In particular, the red “My Tesla” button creates a distinct target for users that frequently come back to that portion of the website.  Lastly, the typography in this mockup is significantly larger than the text in Tesla’s current off-canvas menu, which would help users with visual impairments see the navigation items better, and users with physical impairments to select the intended navigation item with ease.&lt;/p&gt;
-
-&lt;h3 id=&quot;responsive-scalability&quot;&gt;Responsive Scalability:&lt;/h3&gt;
-
-&lt;p&gt;While their are advantages and disadvantages to responsive design versus separate desktop, tablet, and mobile sites, I believe that the user interface design should be consistent across all platforms and devices, while still highlighting the benefits of each device (touch functionality, etc.).  Below are the tablet and desktop variations of the site.  You can see how the navigation and content change slightly to accommodate the screen size, yet still remain true to the look and feel of the mobile mockup.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-nav-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/tesla/tesla-home-desktop.png&quot; alt=&quot;My mockup of Tesla.com desktop layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-</description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/tesla.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/tesla.html</guid>
-        
-        
-        <category>UI</category>
-        
-        <category>design</category>
-        
-        <category>tesla</category>
-        
-      </item>
-    
-      <item>
-        <title>Walk Georgia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
-
-&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
-  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
-  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
-
-&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
-
-&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
-
-&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
-
-&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
-
-&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/johnfrench.xyz/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
-</description>
-        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/walk-georgia.html</guid>
+        <link>http://yourdomain.com/johnfrench.xyz/portfolio-items/7-extension.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/portfolio-items/7-extension.html</guid>
         
         
         <category>design</category>
