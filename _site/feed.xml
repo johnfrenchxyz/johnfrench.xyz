@@ -5,76 +5,36 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://yourdomain.com/johnfrench.xyz/</link>
     <atom:link href="http://yourdomain.com/johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 15:19:04 -0400</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 15:19:04 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 16:05:42 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 16:05:42 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>New Site. New Blog. And a Quick Note on Accessibility.</title>
+        <description>&lt;p&gt;Hello, world! Are we ever going to stop saying, “Hello, world?” I guess I am part of the problem.  But I digress.  My name is John French, and this is my new website and my new blog.  I want to use this first entry to layout some of the things I am passionate about and what I see as the purpose of this blog.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;There’s a lot of pressure in the developer community to have a blog and to show how cool you are… which is a valid design, but the best blog posts (to me) are the ones share a solution to a simple problem.  I can’t tell you how many times I’ve been saved by a blog post on the EXACT problem I am having.  Often, the posts that get circulated are the profound and thought provoking conference-talk-esque think pieces.  And I love those.  I really do.  But for this space, I want to simplify it down and talk about what I’m learning and hopefully that will help others as well.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;I had a mentor of sorts tell me that I should keep a work journal.  I love it when I see an open source project that has their to-do list or their development roadmap right in the README.MD.  So, instead of trying to convince you that I am a better developer than I am, I am going to be honest about the problems I run into and write about them so that you won’t have to go through that pain as well.&lt;/p&gt;
 
-&lt;!-- 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
- --&gt;
+&lt;p&gt;In addition to the mentality of a work journal, I also just want to write about issues in our community that are important to me.  One of the big ones is accessibility.  I feel like we treat web accessibility differently than we treat other aspects of the design and development process.  I’ve heard some developers and designers say it feels like extra weight.  But I don’t believe it has to be.  I think one of the biggest problems is that accessibility is often introduced too late in the design process.  This is not necessarily a malicious decision, typically, but one of innocent ignorance (in which I include myself).  I’ll get so excited about a new design or idea, that I just want to start hacking immediately to see where I can get.  If that idea continues to grow and I want to add more, I will only ever be backtracking when it comes to accessibility.&lt;/p&gt;
 
+&lt;p&gt;I am starting to see more and more design tools with accessible leanings.  A good one I’ve found is &lt;a href=&quot;http://www.colorsafe.co&quot;&gt;colorsafe.co&lt;/a&gt;.  It’s a beautifully designed contrast checker to help you pick color schemes.  I feel like if you are already thinking about accessibility issues when you are playing around with color scheme ideas, it will make things much easier than having to re-work a color scheme once the site or app is in a production environment.&lt;/p&gt;
+
+&lt;p&gt;Similarly, I am trying to start building habits and applying them to code I see in the wild.  Here is an example:&lt;/p&gt;
+
+&lt;p&gt;If I’m just making a quick mock-up or a side project for fun, I ALWAYS will try to add alt text to an image, even if another user besides myself won’t ever see it.  Why?  Because building that habit will help avoid pitfalls in the years to come.  Then, if you’re checking out a cool JS library on GitHub, and they have code samples in their README where img tags don’t have alt text - submit an issue to fix it, and do a pull request!  Spread the wealth.&lt;/p&gt;
+
+&lt;p&gt;Technology is always changing. The web is always changing, and so is our tooling.  So, best practices for accessibility are going to be somewhat fluid and abstract as well.  But there are definite, concrete things we can all start doing to make the web more usable for everyone.  When you have a site, an app, or a product - you’ll never be truly DONE making it accessible… so instead of panicking about that fact, relax, and start taking daily steps to make it more accessible.  I have a lot I am still working on with my own site you’re on right now.&lt;/p&gt;
+
+&lt;p&gt;So, I hope to share more thoughts on things like this in the weeks to come.  I feel as though being open and honest about our shortcomings as well as our awesomeness is incredibly important if we are really going to get anywhere as a community of developers.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 25 Jul 2016 11:39:32 -0400</pubDate>
-        <link>http://yourdomain.com/johnfrench.xyz/jekyll/update/2016/07/25/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/jekyll/update/2016/07/25/welcome-to-jekyll.html</guid>
+        <pubDate>Wed, 28 Sep 2016 11:39:32 -0400</pubDate>
+        <link>http://yourdomain.com/johnfrench.xyz/design/2016/09/28/hello-world.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/design/2016/09/28/hello-world.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Test Post, Bitches!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/c/c2/Beautiful_landscape_in_black_and_white,_Scotland_(5831890202).jpg&quot; alt=&quot;Black and White Landscape&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;THIS IS A TEST POST.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;!-- 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;John French&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;skills&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;web design &amp;amp; development&quot;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forHire&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;company&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;company&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Your company&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hireMe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;company&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; should hire &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;' for '&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;skills&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;hireMe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
- --&gt;
-
-</description>
-        <pubDate>Mon, 25 Jul 2016 11:39:32 -0400</pubDate>
-        <link>http://yourdomain.com/johnfrench.xyz/jekyll/update/2016/07/25/test-post.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/johnfrench.xyz/jekyll/update/2016/07/25/test-post.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>design</category>
         
       </item>
     
