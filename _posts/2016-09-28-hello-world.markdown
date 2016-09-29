@@ -4,7 +4,7 @@ title:  "New Site. New Blog. And a Quick Note on Accessibility."
 date:   2016-09-28 11:39:32 -0400
 categories: design
 img:
-excerpt: Hello, world! Are we ever going to stop saying, “Hello, world?” I guess I am part of the problem.  But I digress.  My name is John French, and this is my new website and my new blog.  I want to use this first entry to layout some of the things I am passionate about and what I see as the purpose of this blog.
+excerpt: Hello, world! Are we ever going to stop saying, “Hello, world?” I that makes me part of the problem.  But I digress.  My name is John French, and this is my new website and my new blog.  I want to use this first entry to layout some of the things I am passionate about and what I see as the purpose of this blog.
 ---
 
 Hello, world! Are we ever going to stop saying, “Hello, world?” I guess I am part of the problem.  But I digress.  My name is John French, and this is my new website and my new blog.  I want to use this first entry to layout some of the things I am passionate about and what I see as the purpose of this blog.
