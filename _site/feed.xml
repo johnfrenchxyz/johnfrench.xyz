@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://johnfrench.xyz/</link>
     <atom:link href="http://johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2016 08:01:58 -0400</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2016 08:01:58 -0400</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2016 21:13:51 -0400</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2016 21:13:51 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -40,31 +40,25 @@
     
     
       <item>
-        <title>Bloodroot Blades: Lexicon</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/lexicon/lexicon-portfolio.jpg&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
+        <title>Accessibility Checklist UI Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/accessibility-checklist/accessibility-checklist.png&quot; alt=&quot;A man is viewing his phone a table. On top of the image is a large logo indicating accessibility&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
 
-&lt;p&gt;David and Luke (of Bloodroot Blades) are blacksmiths and custom knife makers. They are true artisans and make incredibly beautiful knives and tools, often out of reclaimed materials. I worked with them initially doing some UX consultation for their website, but since then, decided to give a little more personality to one of their projects.  They wrote a lexicon of knife-making terms for beginners.  I worked with them to turn that lexicon into a more beautiful and interactive experience.&lt;/p&gt;
+&lt;p&gt;This is a big passion project of mine.  There are a lot of tools out there that test your site for speed, mobile-friendliness, or security… but there are not as many open source tools that test how well your site conforms to accessibility requirements.  Furthermore, there seems to be an ideological divide in the industry between beautiful design and inclusive design - so one of my goals for this project was to build a beautiful interface to show that the two don’t have to be mutually exclusive.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/lexicon/&quot; class=&quot;portfolio-button&quot;&gt;View the Lexicon Site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://adobe.ly/2dZXndX&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View the Accessibility Checklist UI&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge:&lt;/h2&gt;
+&lt;h2 id=&quot;progress&quot;&gt;Progress:&lt;/h2&gt;
 
-&lt;p&gt;Lexicons are not the most exciting or aesthetically interesting subject.  They contain, however, vital and powerful information.  Traditional lexicons may be useful from a research standpoint, but with no prior knowledge, it can be difficult to learn from them in a holistic way.&lt;/p&gt;
+&lt;p&gt;This project stems from an earlier project I worked on that was a simple checklist.  I created a site that had all the current WCAG standards in a list/card format where designers could use it as an online checklist.  But, to me, designing the tool in that way added to the paradigm of accessibility as “another thing designers have to worry about” and that is the last thing I wanted to communicate.&lt;/p&gt;
 
-&lt;p&gt;After working on the UX design of Bloodroot’s official site, we came across the idea of including a lexicon of knife making terminology.  Luke Snyder (one of the blacksmiths) was particularly enthusiastic about including it, because a distinct portion of their user base are either other knife makers or people who are interested in the art and process of it all.  We included it as a web page, but it failed to find it’s own identity.  It just seemed like static information.&lt;/p&gt;
+&lt;p&gt;I thought instead it would be more helpful to build a tool that checks a user’s site automatically, and then gives them the resources to take the matter into their own hands.  The methodology draws inspiration from the AXE plugin for Google Chrome, which is an extremely helpful tool for doing Accessibility audits.&lt;/p&gt;
 
-&lt;p&gt;I thought, that by giving the lexicon it’s own platform, and striving to make it as beautiful as possible, the document itself would start to come alive.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-future&quot;&gt;The Future:&lt;/h2&gt;
-
-&lt;p&gt;The lexicon currently exists as a more beautiful version of a static document.  It has a photo gallery included for some context, and navigation the document is easier, based on technical sections, but it still is lacking in what will eventually be most important: interactivity.  My goal for the future of this project is to make the words come to life with videos, images, illustrations, and additional information.  That way, as the user clicks thought the lexicon, it will come to life in a beautiful way.&lt;/p&gt;
-
-&lt;p&gt;For now, establishing the principle that even something as mundane and purely-functional as a lexicon - could still be (and should be) beautiful - was my primary objective.&lt;/p&gt;
+&lt;p&gt;This is a preview of the interface I am developing as I continue to make decisions about the stack I want to develop it on.  I’ll be open sourcing it ASAP to get contributions, which will be exciting to see if a community of designers and developers can rally behind yet another new tool.&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/0-lexicon.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/0-lexicon.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/0-accessibility-checklist-design.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/0-accessibility-checklist-design.html</guid>
         
         
         <category>design</category>
@@ -102,6 +96,277 @@
         <category>design</category>
         
         <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>UGA CAES Redesign</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/UGA-CAES-portfolio.png&quot; alt=&quot;Growing grapes advertising the UGA College of Ag and Environmental Sciences&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;As the lead web developer, my responsibility was to take the initial template created by the design team and make recommendations about adherence to modern web development standards.  Once the design was finalized, I was responsible for converting the PDF mockups into functional HTML/CSS/JS pages.  Lastly, I assisted in converting those pages into our Java-based CMS, Adobe Experience Manager and assisted with testing, bug fixes and maintenance.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Status: The site is currently in internal use only and is scheduled for launch at the beginning of November. The final stages of mockups can be showed below.  Additionally, because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/&quot; class=&quot;portfolio-button&quot;&gt;View the CAES Redesign Elements (Mockups)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sheer volume.  As with many large-scale websites, the UGA CAES network has thousands upon thousands of pages and individual users, some of whom rely on daily access to our site in order to do their jobs.  Our update, therefore, had to be pushed out without interrupting current services. It was also imperative that we provided thorough documentation and training to our internal staff.&lt;/li&gt;
+  &lt;li&gt;After the audit, we had to develop a new template that met all the guidelines of a modern web platform.  Once the design was in place, I was responsible for taking the mockups and converting them into a function HTML/CSS/JS template for review.  It was my responsibility to make sure everything was usable and accessible, and could fit clearly into the responsive nature of the new site.&lt;/li&gt;
+  &lt;li&gt;Once the template was completed, we had to develop dozens of individual page components that would eventually be used by admins to add content to their sites and pages.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-starting-point&quot;&gt;The Starting Point:&lt;/h2&gt;
+
+&lt;p&gt;To understand the effectiveness of the update, it is important to understand what we were updating. While it was advanced at the time, the template has become wildly outdated in every way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/current-caes-homepage.png&quot; alt=&quot;The old CAES hompage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The template was not responsive and it did not reflect a modern aesthetic that users expect when they visit a website.  Many of the techniques used in the development of the old site are also currently obsolete, such as image mapping for header links.  While the site was accessible, even by modern standards, the user experience of using an outdated site was poor, and it was a concern that the design would be unappealing to new or prospective students thinking about attending the university.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-progress&quot;&gt;Our Progress:&lt;/h2&gt;
+
+&lt;p&gt;The new site achieves a much cleaner and aesthetically pleasing design.  It was also crafted to give users immediate access to information that would be relevant to them, such as news and events.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/new-caes-homepage.png&quot; alt=&quot;The new CAES homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the faculty’s perspective the site is also significantly more conducive to a productive workflow.  Previously, nothing about the web presence was centralized or unified.  This meant that if an employee moved from one department to another, the fragmentation may cause there to be two records of the employee in two different departments.  Rather than assigning the tedious task of maintenance to the web managers in each department, we built our site’s architecture around our centralized databases.  For personnel, this means a change will immediately be reflected across all pages.&lt;/p&gt;
+
+&lt;p&gt;From the faculty’s perspective the site is also significantly more conducive to a productive workflow.  Previously, nothing about the web presence was centralized or unified.  This meant that if an employee moved from one department to another, the fragmentation may cause there to be two records of the employee in two different departments.  Rather than assigning the tedious task of maintenance to the web managers in each department, we built our site’s architecture around our centralized databases.  For personnel, this means a change will immediately be reflected across all pages.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we solved another architectural problem related to the storage of images and documents.  If several departments needed a PDF to make available to users, there would be separate instances of the PDF across all of their websites. If one department noticed a typo, corrected it, and then re-uploaded it to their site - the other instances of the PDF would still have the same error.  This was obviously unacceptable.  By carefully designing the infrastructure within our CMS, we were able to create an environment where files can be stored, shared, and pushed to all of our sites.  If a change is made to that document, it is instantly pushed to all sites without any additional work to be done.&lt;/p&gt;
+
+&lt;h2 id=&quot;modular-component-design&quot;&gt;Modular Component Design:&lt;/h2&gt;
+
+&lt;p&gt;We wanted to make creating new sites, pages, and content as easy as possible for content managers.  Due to the nature of the faculty/staff at the University of Georgia, most of the people who are in charge of maintaining a web page have had no formal web design training.  With  the use of Adobe Experience Manager, we thoughtfully designed an entire toolset for our content managers so that they can simply drag, drop, and customize components to create pages.  We have designed and implemented everything from layout and column control components to lists that display personnel or a simple YouTube component.  &lt;a href=&quot;http://www.johnfrenchxyz.github.io/UGA/&quot;&gt;A complete list of the components can be found here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/caes-components.png&quot; alt=&quot;A screenshot of the CAES Event Sidebar Component&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/2-caes.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/2-caes.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>UGA</category>
+        
+        <category>caes</category>
+        
+      </item>
+    
+      <item>
+        <title>Oak House UI Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/oak-house/oak-house.png&quot; alt=&quot;Gresham Cash (of the band Oak Hosue) Plays guitar with a lit cigarette in his mouth&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;Oak House is a great new band out of the Southeast.  I had the pleasure of working with them on these interface design concepts for direction on their new site.  They have so much raw energy and power in their music, it was incredibly fun to try and capture that in the design.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adobe.ly/2dcAMZS&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View the Oak House UI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For this design, we definitely wanted to go with something that was immediately jarring.  As a band, they have a great juxtaposition of beautiful lyrics and melodies with, loud high-frequency rock influences.  I wanted to capture that beauty and that ferocity in the designs.  All the images (taken by &lt;a href=&quot;http://www.jakegee.com/&quot;&gt;Jake Gee&lt;/a&gt;) are beautiful, yet display motion or emotion.  The color scheme ranges from washed out color tones to black and white - and I thought it was important to keep both in.  The music of Oak House keeps you guessing, and I wanted the design to do the same.  It needed to be consistent in the global sense, but also have new elements of personality on each page.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://oakhouse.bandcamp.com/releases&quot;&gt;listen to their music here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/3-oak-house.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/3-oak-house.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Walk Georgia Design &amp; Development</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
+
+&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
+  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
+  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
+
+&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
+
+&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
+
+&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/4-walk-georgia.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/4-walk-georgia.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>atom</category>
+        
+      </item>
+    
+      <item>
+        <title>Tesla Motors Mobile UI Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-modelx.jpg&quot; alt=&quot;Tesla Model X&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;There are few companies I respect more than Tesla.  The cars that they create are beautiful in both form and function, and their commitment to fostering sustainable energy is above admirable.  I began following them as an admirer, and now I don’t think I will be able to justify buying a new car unless it is a Model 3.  When I find a company that I respect this deeply, I almost immediately start analyzing their website for insights on design, architecture, and best practices.&lt;/p&gt;
+
+&lt;p&gt;While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience. &lt;em&gt;Note: This is reflective of the Tesla site as of Summer of 2016.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
+  &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
+  &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adobe.ly/2e2wgyW&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View the Tesla UI Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;teslas-current-mobile-homepage&quot;&gt;Tesla’s Current Mobile Homepage:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a screen capture of Tesla’s current mobile site (as of July of 2016).  It is by no means displeasing, but when it is compared to the desktop site - the layout and user experience feel lackluster.  To get started, I’ll show you the large, scrolling mockup I have created.  It provides all navigational and functional options of Tesla’s current mobile site, as well as its desktop experience as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-interface&quot;&gt;The Interface:&lt;/h3&gt;
+
+&lt;p&gt;As you can see from the first screenshot, the current Tesla mobile site feels almost like a fallback in comparison to the desktop site.  If a user goes to the desktop site first, and then later visits teslamotors.com on their mobile device, they may be underwhelmed by the difference in experience.  I am a firm believer that, despite the small screen size, a mobile interface can be just as rich and compelling as a desktop interface.&lt;/p&gt;
+
+&lt;p&gt;My addition of diagonal blocks and lines also breaks from the traditional box model of many modern web layouts, which serves to further illustrate the way that Tesla is far more than simply another car company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hamburger-menu&quot;&gt;The Hamburger Menu:&lt;/h3&gt;
+
+&lt;p&gt;In the current Tesla mobile site, they are using the “E” of the Tesla logo, or “3” as in “Model 3” for their hamburger menu icon, due to the similarity in shape.  From a branding perspective, I understand this practice, however, by their very nature, hamburger menus obfuscate content.  Now that hamburger menus have been adopted by Google in their material design design framework, they have a certain level of ubiquity that offsets usability problems with hiding nav items, but because some users aren’t incredibly familiar with hamburger menus to begin with, I thought it would be a more user-focused decision to use a typical hamburger icon.  Using a traditional icon also has the added bonus of being easier to animate for into an “x” for closing the menu.  Currently, on the Tesla mobile site, clicking on the hamburger icon activates an off-canvas menu, but the icon does not change or give the user any indication of how they may close the menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-navigation&quot;&gt;Mobile Navigation:&lt;/h3&gt;
+
+&lt;p&gt;The changes I brought to the mobile navigation help visually break up the different sections of the Tesla website, which would help first-time users be able to navigate the site with more confidence.  Additionally, the highlighted “Shop” and “My Tesla” buttons at the bottom of the navigation stick out far more than on the current navigation and draw more attention to two of the more important links in the navigation list.  In particular, the red “My Tesla” button creates a distinct target for users that frequently come back to that portion of the website.  Lastly, the typography in this mockup is significantly larger than the text in Tesla’s current off-canvas menu, which would help users with visual impairments see the navigation items better, and users with physical impairments to select the intended navigation item with ease.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsive-scalability&quot;&gt;Responsive Scalability:&lt;/h3&gt;
+
+&lt;p&gt;While their are advantages and disadvantages to responsive design versus separate desktop, tablet, and mobile sites, I believe that the user interface design should be consistent across all platforms and devices, while still highlighting the benefits of each device (touch functionality, etc.).  Below are the tablet and desktop variations of the site.  You can see how the navigation and content change slightly to accommodate the screen size, yet still remain true to the look and feel of the mobile mockup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-desktop.png&quot; alt=&quot;My mockup of Tesla.com desktop layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/5-tesla.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/5-tesla.html</guid>
+        
+        
+        <category>UI</category>
+        
+        <category>design</category>
+        
+        <category>tesla</category>
+        
+      </item>
+    
+      <item>
+        <title>UGA Extension Redesign</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/extension-portfolio.png&quot; alt=&quot;the extension logo above an image of cows&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;desctiption&quot;&gt;Desctiption:&lt;/h2&gt;
+
+&lt;p&gt;UGA Extension is a branch of the University of Georgia that focuses primarily on community outreach and research.  With over a hundred different offices all over the state, Extension is a massive organization with a large online presence.  The needs of each office were sometimes vastly different, and my team and I had to develop a template and web platform that would work well for all users and all faculty and staff to increase overall productivity and help keep the budget stable.&lt;/p&gt;
+
+&lt;p&gt;In a short study we conducted after the completion of redesign, we discovered that almost all offices saw an increase in community engagement through the website because of design decisions we made.  In particular, highlighting the office contact information and making it easier for users to get in touch with their office has led to an increase in services across Extension.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Design a template within the parameters of the Extension style guidelines that would serve the diverse needs of each county office.&lt;/li&gt;
+  &lt;li&gt;Develop centrally controlled “starter” content, in the event that a county office doesn’t have the content of their own, or the staff to be updating content frequently.&lt;/li&gt;
+  &lt;li&gt;Design the CMS experience to be as user-friendly as possible, especially for people who have no web design or development experience.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/county-template.png&quot; alt=&quot;the UGA extension county template&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flexible-templating&quot;&gt;Flexible Templating:&lt;/h2&gt;
+
+&lt;p&gt;The size and scale of each Extension county office can be drastically different.  One county could have ten employees and have a massive outreach program, master gardening school, 4-H Youth programs, and more - while a different county office might be made up of only two people doing community outreach.&lt;/p&gt;
+
+&lt;p&gt;Similarly, the web presence of each of the county sites varied from five pages to five hundred pages.  Both needed to fit seamlessly into the same consistent template.  This presented a particular difficulty when it came to the navigational structure of our design.  We decided to go with a vertical side-navigation, because there was no way for us to determine the number of top-level pages the counties would need.  With a horizontal menu, you quickly run out of screen real-estate, but a vertical menu can continue indefinitely, and is easily supplemented by off-canvas mobile navigation, or something of the sort. The vertical navigation also allowed us to greatly increase the amount of sub-pages we could allow users to create.  With a horizontal navigation (especially using dropdowns), you can only show one or two child-level pages before it starts to create a very frustrating user experience.&lt;/p&gt;
+
+&lt;p&gt;So, for our navigation design, we made clear and distinct parent and children levels to help users navigation and to help the content managers understand the structure of their content visually.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/nav-progression.png&quot; alt=&quot;the progression of navigation items from parent to child pages&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dynamic-components&quot;&gt;Dynamic Components:&lt;/h2&gt;
+
+&lt;p&gt;With the Extension redesign, one of the biggest problems we faced was the difficulty for our web managers to generate new content.  While some of the larger Extension offices had a dedicated web manager, most of the offices around the state don’t have the resources to hire a new employee.  The responsibility of maintaining the website would then fall to someone who had little or no experience doing so, which makes it hard to generate content, especially with all the other responsibilities each employee had.&lt;/p&gt;
+
+&lt;p&gt;We wanted to try and alleviate this stress from the offices with less resources, without limiting the functionality of the offices who had a dedicated web manager.  We accomplished this task through the use of dynamic components and some centrally managed content.&lt;/p&gt;
+
+&lt;p&gt;When a county created their new site for the first time, it was preloaded with relevant and helpful content we would pull from various University and Extension databases.  The content was deemed relevant and helpful by leadership from each department, and a county could have a fully functional site, with new and dynamic content coming in every day, without having to touch their site at all.  We could pull content from blogs, online Extension publications, new articles, events, and more.  Lastly, since a portion of this content was centrally maintained, any update or change would immediately get pushed to all sites that pulled the information, increasing the freshness and adoption of content.&lt;/p&gt;
+
+&lt;p&gt;For offices who had their own content that they wanted to update regularly, it was as simple as dragging and dropping their own components in place of our pre-populated ones.  They still had access to all of the same features and tools, such as pulling from databases and blogs, but they are able to choose the source from which it came and have more control over the filtering options, etc.  Below is an example of how userss could simply drag and drop a “Personnel” component to have a list of their current staff load on whatever page their choose, without any coding or typing whatsoever.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/component.png&quot; alt=&quot;a dynamic contact information component showing the employees of the office&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Furthermore, if an employee’s position changes or they are transferred to a different office, as soon as their official status is changed in the central database, the update is immediately pushed to all sites and all pages with instances of that employee.  This is a tremendous time-saving managemnt tool.  Our web managers no longer have to worry about details like this and can focus on creating the content that is important to their user.&lt;/p&gt;
+
+&lt;h2 id=&quot;designing-for-cms&quot;&gt;Designing for CMS:&lt;/h2&gt;
+
+&lt;p&gt;Instead of simply designing and laying out all content in the traditional sense, we had to design modular components that would look good in any order, on any screen or column size, and with any content inside them.&lt;/p&gt;
+
+&lt;p&gt;This presents interesting challenges, like building containers that can handle images of any aspect ratio, without becoming to wide or tall, creating buttons or title bars that would work well if the title was one word or two sentences, and more.  We have used Adobe Experience Manager as our primary CSM.  While I would have advised going with an open source CMS, working with this Java-based platform definitely taught me a lot about what I like in a CMS and what drives me crazy.  But most importantly, I think it taught me that user experience design does not simply exist in the realm of the public facing features.  A lot of the work I did on this project was improving the tools and settings and control panels of various components to make them more intuitive for our web managers, which, in turn helped produce better content for the users themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/Extension/county-template/&quot; class=&quot;portfolio-button&quot;&gt;View Homepage Mockup&lt;/a&gt;&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/6-extension.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/6-extension.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>atom</category>
         
       </item>
     
@@ -202,8 +467,8 @@
 
 &lt;p&gt;While we as designers and developers can do a lot to ensure that our sites will be useable for everyone, we will inevitably make mistakes, technology will change and present new challanges, and we will constantly be learning techniques.  So, if accessibility isn’t a part of your initial design process, start to think about ways in which it can be implemented.  If usability audits or testing don’t happen until after you’re site is launched, maybe consider doing them much, much sooner.  I find it is the small, ongoing changes that can really make a difference.  In the same way that you might be constantly tweaking code to make it faster, or constantly altering a design to get it pixel-perfect, I encourage everyone to tinker frequently with usability and accessibility in their site.&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/2-atom.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/2-atom.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/7-atom.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/7-atom.html</guid>
         
         
         <category>ux</category>
@@ -211,64 +476,6 @@
         <category>design</category>
         
         <category>atom</category>
-        
-      </item>
-    
-      <item>
-        <title>UGA CAES Redesign</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/UGA-CAES-portfolio.png&quot; alt=&quot;Growing grapes advertising the UGA College of Ag and Environmental Sciences&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;As the lead web developer, my responsibility was to take the initial template created by the design team and make recommendations about adherence to modern web development standards.  Once the design was finalized, I was responsible for converting the PDF mockups into functional HTML/CSS/JS pages.  Lastly, I assisted in converting those pages into our Java-based CMS, Adobe Experience Manager and assisted with testing, bug fixes and maintenance.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Status: The site is currently in internal use only and is scheduled for launch at the beginning of November. The final stages of mockups can be showed below.  Additionally, because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/&quot; class=&quot;portfolio-button&quot;&gt;View the CAES Redesign Elements (Mockups)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Sheer volume.  As with many large-scale websites, the UGA CAES network has thousands upon thousands of pages and individual users, some of whom rely on daily access to our site in order to do their jobs.  Our update, therefore, had to be pushed out without interrupting current services. It was also imperative that we provided thorough documentation and training to our internal staff.&lt;/li&gt;
-  &lt;li&gt;After the audit, we had to develop a new template that met all the guidelines of a modern web platform.  Once the design was in place, I was responsible for taking the mockups and converting them into a function HTML/CSS/JS template for review.  It was my responsibility to make sure everything was usable and accessible, and could fit clearly into the responsive nature of the new site.&lt;/li&gt;
-  &lt;li&gt;Once the template was completed, we had to develop dozens of individual page components that would eventually be used by admins to add content to their sites and pages.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-starting-point&quot;&gt;The Starting Point:&lt;/h2&gt;
-
-&lt;p&gt;To understand the effectiveness of the update, it is important to understand what we were updating. While it was advanced at the time, the template has become wildly outdated in every way.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/current-caes-homepage.png&quot; alt=&quot;The old CAES hompage&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The template was not responsive and it did not reflect a modern aesthetic that users expect when they visit a website.  Many of the techniques used in the development of the old site are also currently obsolete, such as image mapping for header links.  While the site was accessible, even by modern standards, the user experience of using an outdated site was poor, and it was a concern that the design would be unappealing to new or prospective students thinking about attending the university.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-progress&quot;&gt;Our Progress:&lt;/h2&gt;
-
-&lt;p&gt;The new site achieves a much cleaner and aesthetically pleasing design.  It was also crafted to give users immediate access to information that would be relevant to them, such as news and events.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/new-caes-homepage.png&quot; alt=&quot;The new CAES homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From the faculty’s perspective the site is also significantly more conducive to a productive workflow.  Previously, nothing about the web presence was centralized or unified.  This meant that if an employee moved from one department to another, the fragmentation may cause there to be two records of the employee in two different departments.  Rather than assigning the tedious task of maintenance to the web managers in each department, we built our site’s architecture around our centralized databases.  For personnel, this means a change will immediately be reflected across all pages.&lt;/p&gt;
-
-&lt;p&gt;From the faculty’s perspective the site is also significantly more conducive to a productive workflow.  Previously, nothing about the web presence was centralized or unified.  This meant that if an employee moved from one department to another, the fragmentation may cause there to be two records of the employee in two different departments.  Rather than assigning the tedious task of maintenance to the web managers in each department, we built our site’s architecture around our centralized databases.  For personnel, this means a change will immediately be reflected across all pages.&lt;/p&gt;
-
-&lt;p&gt;Lastly, we solved another architectural problem related to the storage of images and documents.  If several departments needed a PDF to make available to users, there would be separate instances of the PDF across all of their websites. If one department noticed a typo, corrected it, and then re-uploaded it to their site - the other instances of the PDF would still have the same error.  This was obviously unacceptable.  By carefully designing the infrastructure within our CMS, we were able to create an environment where files can be stored, shared, and pushed to all of our sites.  If a change is made to that document, it is instantly pushed to all sites without any additional work to be done.&lt;/p&gt;
-
-&lt;h2 id=&quot;modular-component-design&quot;&gt;Modular Component Design:&lt;/h2&gt;
-
-&lt;p&gt;We wanted to make creating new sites, pages, and content as easy as possible for content managers.  Due to the nature of the faculty/staff at the University of Georgia, most of the people who are in charge of maintaining a web page have had no formal web design training.  With  the use of Adobe Experience Manager, we thoughtfully designed an entire toolset for our content managers so that they can simply drag, drop, and customize components to create pages.  We have designed and implemented everything from layout and column control components to lists that display personnel or a simple YouTube component.  &lt;a href=&quot;http://www.johnfrenchxyz.github.io/UGA/&quot;&gt;A complete list of the components can be found here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/caes-components.png&quot; alt=&quot;A screenshot of the CAES Event Sidebar Component&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-</description>
-        <link>http://johnfrench.xyz/portfolio-items/3-caes.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/3-caes.html</guid>
-        
-        
-        <category>design</category>
-        
-        <category>UGA</category>
-        
-        <category>caes</category>
         
       </item>
     
@@ -380,8 +587,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/4-code-coloring.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/4-code-coloring.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/8-code-coloring.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/8-code-coloring.html</guid>
         
         
         <category>design</category>
@@ -391,189 +598,36 @@
       </item>
     
       <item>
-        <title>Tesla Motors Mobile UI Design</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-modelx.jpg&quot; alt=&quot;Tesla Model X&quot; /&gt;&lt;/p&gt;
+        <title>Bloodroot Blades: Lexicon</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/lexicon/lexicon-portfolio.jpg&quot; alt=&quot;A computer, smartphone, and notes sit on a table&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
 
-&lt;p&gt;There are few companies I respect more than Tesla.  The cars that they create are beautiful in both form and function, and their commitment to fostering sustainable energy is above admirable.  I began following them as an admirer, and now I don’t think I will be able to justify buying a new car unless it is a Model 3.  When I find a company that I respect this deeply, I almost immediately start analyzing their website for insights on design, architecture, and best practices.&lt;/p&gt;
+&lt;p&gt;David and Luke (of Bloodroot Blades) are blacksmiths and custom knife makers. They are true artisans and make incredibly beautiful knives and tools, often out of reclaimed materials. I worked with them initially doing some UX consultation for their website, but since then, decided to give a little more personality to one of their projects.  They wrote a lexicon of knife-making terms for beginners.  I worked with them to turn that lexicon into a more beautiful and interactive experience.&lt;/p&gt;
 
-&lt;p&gt;While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/lexicon/&quot; class=&quot;portfolio-button&quot;&gt;View the Lexicon Site&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;challenges&quot;&gt;Challenges:&lt;/h2&gt;
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge:&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Create a more enticing and engaging mobile site that matches the polish of the desktop site.&lt;/li&gt;
-  &lt;li&gt;Improve mobile navigation usability without detracting from the brand identity.&lt;/li&gt;
-  &lt;li&gt;Create a truly responsive template that wouldn’t require completely separate layouts between devices.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Lexicons are not the most exciting or aesthetically interesting subject.  They contain, however, vital and powerful information.  Traditional lexicons may be useful from a research standpoint, but with no prior knowledge, it can be difficult to learn from them in a holistic way.&lt;/p&gt;
 
-&lt;h2 id=&quot;teslas-current-mobile-homepage&quot;&gt;Tesla’s Current Mobile Homepage:&lt;/h2&gt;
+&lt;p&gt;After working on the UX design of Bloodroot’s official site, we came across the idea of including a lexicon of knife making terminology.  Luke Snyder (one of the blacksmiths) was particularly enthusiastic about including it, because a distinct portion of their user base are either other knife makers or people who are interested in the art and process of it all.  We included it as a web page, but it failed to find it’s own identity.  It just seemed like static information.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-current.png&quot; alt=&quot;Current Tesla.com mobile homepage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I thought, that by giving the lexicon it’s own platform, and striving to make it as beautiful as possible, the document itself would start to come alive.&lt;/p&gt;
 
-&lt;p&gt;This is a screen capture of Tesla’s current mobile site (as of July of 2016).  It is by no means displeasing, but when it is compared to the desktop site - the layout and user experience feel lackluster.  To get started, I’ll show you the large, scrolling mockup I have created.  It provides all navigational and functional options of Tesla’s current mobile site, as well as its desktop experience as well.&lt;/p&gt;
+&lt;h2 id=&quot;the-future&quot;&gt;The Future:&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile homepage&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The lexicon currently exists as a more beautiful version of a static document.  It has a photo gallery included for some context, and navigation the document is easier, based on technical sections, but it still is lacking in what will eventually be most important: interactivity.  My goal for the future of this project is to make the words come to life with videos, images, illustrations, and additional information.  That way, as the user clicks thought the lexicon, it will come to life in a beautiful way.&lt;/p&gt;
 
-&lt;h3 id=&quot;the-interface&quot;&gt;The Interface:&lt;/h3&gt;
-
-&lt;p&gt;As you can see from the first screenshot, the current Tesla mobile site feels almost like a fallback in comparison to the desktop site.  If a user goes to the desktop site first, and then later visits teslamotors.com on their mobile device, they may be underwhelmed by the difference in experience.  I am a firm believer that, despite the small screen size, a mobile interface can be just as rich and compelling as a desktop interface.&lt;/p&gt;
-
-&lt;p&gt;My addition of diagonal blocks and lines also breaks from the traditional box model of many modern web layouts, which serves to further illustrate the way that Tesla is far more than simply another car company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-current.png&quot; alt=&quot;Current Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-hamburger-menu&quot;&gt;The Hamburger Menu:&lt;/h3&gt;
-
-&lt;p&gt;In the current Tesla mobile site, they are using the “E” of the Tesla logo, or “3” as in “Model 3” for their hamburger menu icon, due to the similarity in shape.  From a branding perspective, I understand this practice, however, by their very nature, hamburger menus obfuscate content.  Now that hamburger menus have been adopted by Google in their material design design framework, they have a certain level of ubiquity that offsets usability problems with hiding nav items, but because some users aren’t incredibly familiar with hamburger menus to begin with, I thought it would be a more user-focused decision to use a typical hamburger icon.  Using a traditional icon also has the added bonus of being easier to animate for into an “x” for closing the menu.  Currently, on the Tesla mobile site, clicking on the hamburger icon activates an off-canvas menu, but the icon does not change or give the user any indication of how they may close the menu.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-iphone.png&quot; alt=&quot;My mockup of Tesla.com mobile navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mobile-navigation&quot;&gt;Mobile Navigation:&lt;/h3&gt;
-
-&lt;p&gt;The changes I brought to the mobile navigation help visually break up the different sections of the Tesla website, which would help first-time users be able to navigate the site with more confidence.  Additionally, the highlighted “Shop” and “My Tesla” buttons at the bottom of the navigation stick out far more than on the current navigation and draw more attention to two of the more important links in the navigation list.  In particular, the red “My Tesla” button creates a distinct target for users that frequently come back to that portion of the website.  Lastly, the typography in this mockup is significantly larger than the text in Tesla’s current off-canvas menu, which would help users with visual impairments see the navigation items better, and users with physical impairments to select the intended navigation item with ease.&lt;/p&gt;
-
-&lt;h3 id=&quot;responsive-scalability&quot;&gt;Responsive Scalability:&lt;/h3&gt;
-
-&lt;p&gt;While their are advantages and disadvantages to responsive design versus separate desktop, tablet, and mobile sites, I believe that the user interface design should be consistent across all platforms and devices, while still highlighting the benefits of each device (touch functionality, etc.).  Below are the tablet and desktop variations of the site.  You can see how the navigation and content change slightly to accommodate the screen size, yet still remain true to the look and feel of the mobile mockup.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-nav-ipad.png&quot; alt=&quot;My mockup of Tesla.com tablet navigation&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/tesla/tesla-home-desktop.png&quot; alt=&quot;My mockup of Tesla.com desktop layout&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For now, establishing the principle that even something as mundane and purely-functional as a lexicon - could still be (and should be) beautiful - was my primary objective.&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/5-tesla.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/5-tesla.html</guid>
-        
-        
-        <category>UI</category>
-        
-        <category>design</category>
-        
-        <category>tesla</category>
-        
-      </item>
-    
-      <item>
-        <title>Walk Georgia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
-
-&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
-  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
-  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
-
-&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
-
-&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
-
-&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
-
-&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
-
-&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
-</description>
-        <link>http://johnfrench.xyz/portfolio-items/6-walk-georgia.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/6-walk-georgia.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/9-lexicon.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/9-lexicon.html</guid>
         
         
         <category>design</category>
         
-        <category>atom</category>
-        
-      </item>
-    
-      <item>
-        <title>UGA Extension Redesign</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/extension-portfolio.png&quot; alt=&quot;the extension logo above an image of cows&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;desctiption&quot;&gt;Desctiption:&lt;/h2&gt;
-
-&lt;p&gt;UGA Extension is a branch of the University of Georgia that focuses primarily on community outreach and research.  With over a hundred different offices all over the state, Extension is a massive organization with a large online presence.  The needs of each office were sometimes vastly different, and my team and I had to develop a template and web platform that would work well for all users and all faculty and staff to increase overall productivity and help keep the budget stable.&lt;/p&gt;
-
-&lt;p&gt;In a short study we conducted after the completion of redesign, we discovered that almost all offices saw an increase in community engagement through the website because of design decisions we made.  In particular, highlighting the office contact information and making it easier for users to get in touch with their office has led to an increase in services across Extension.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Design a template within the parameters of the Extension style guidelines that would serve the diverse needs of each county office.&lt;/li&gt;
-  &lt;li&gt;Develop centrally controlled “starter” content, in the event that a county office doesn’t have the content of their own, or the staff to be updating content frequently.&lt;/li&gt;
-  &lt;li&gt;Design the CMS experience to be as user-friendly as possible, especially for people who have no web design or development experience.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/county-template.png&quot; alt=&quot;the UGA extension county template&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;flexible-templating&quot;&gt;Flexible Templating:&lt;/h2&gt;
-
-&lt;p&gt;The size and scale of each Extension county office can be drastically different.  One county could have ten employees and have a massive outreach program, master gardening school, 4-H Youth programs, and more - while a different county office might be made up of only two people doing community outreach.&lt;/p&gt;
-
-&lt;p&gt;Similarly, the web presence of each of the county sites varied from five pages to five hundred pages.  Both needed to fit seamlessly into the same consistent template.  This presented a particular difficulty when it came to the navigational structure of our design.  We decided to go with a vertical side-navigation, because there was no way for us to determine the number of top-level pages the counties would need.  With a horizontal menu, you quickly run out of screen real-estate, but a vertical menu can continue indefinitely, and is easily supplemented by off-canvas mobile navigation, or something of the sort. The vertical navigation also allowed us to greatly increase the amount of sub-pages we could allow users to create.  With a horizontal navigation (especially using dropdowns), you can only show one or two child-level pages before it starts to create a very frustrating user experience.&lt;/p&gt;
-
-&lt;p&gt;So, for our navigation design, we made clear and distinct parent and children levels to help users navigation and to help the content managers understand the structure of their content visually.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/nav-progression.png&quot; alt=&quot;the progression of navigation items from parent to child pages&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;dynamic-components&quot;&gt;Dynamic Components:&lt;/h2&gt;
-
-&lt;p&gt;With the Extension redesign, one of the biggest problems we faced was the difficulty for our web managers to generate new content.  While some of the larger Extension offices had a dedicated web manager, most of the offices around the state don’t have the resources to hire a new employee.  The responsibility of maintaining the website would then fall to someone who had little or no experience doing so, which makes it hard to generate content, especially with all the other responsibilities each employee had.&lt;/p&gt;
-
-&lt;p&gt;We wanted to try and alleviate this stress from the offices with less resources, without limiting the functionality of the offices who had a dedicated web manager.  We accomplished this task through the use of dynamic components and some centrally managed content.&lt;/p&gt;
-
-&lt;p&gt;When a county created their new site for the first time, it was preloaded with relevant and helpful content we would pull from various University and Extension databases.  The content was deemed relevant and helpful by leadership from each department, and a county could have a fully functional site, with new and dynamic content coming in every day, without having to touch their site at all.  We could pull content from blogs, online Extension publications, new articles, events, and more.  Lastly, since a portion of this content was centrally maintained, any update or change would immediately get pushed to all sites that pulled the information, increasing the freshness and adoption of content.&lt;/p&gt;
-
-&lt;p&gt;For offices who had their own content that they wanted to update regularly, it was as simple as dragging and dropping their own components in place of our pre-populated ones.  They still had access to all of the same features and tools, such as pulling from databases and blogs, but they are able to choose the source from which it came and have more control over the filtering options, etc.  Below is an example of how userss could simply drag and drop a “Personnel” component to have a list of their current staff load on whatever page their choose, without any coding or typing whatsoever.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/component.png&quot; alt=&quot;a dynamic contact information component showing the employees of the office&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Furthermore, if an employee’s position changes or they are transferred to a different office, as soon as their official status is changed in the central database, the update is immediately pushed to all sites and all pages with instances of that employee.  This is a tremendous time-saving managemnt tool.  Our web managers no longer have to worry about details like this and can focus on creating the content that is important to their user.&lt;/p&gt;
-
-&lt;h2 id=&quot;designing-for-cms&quot;&gt;Designing for CMS:&lt;/h2&gt;
-
-&lt;p&gt;Instead of simply designing and laying out all content in the traditional sense, we had to design modular components that would look good in any order, on any screen or column size, and with any content inside them.&lt;/p&gt;
-
-&lt;p&gt;This presents interesting challenges, like building containers that can handle images of any aspect ratio, without becoming to wide or tall, creating buttons or title bars that would work well if the title was one word or two sentences, and more.  We have used Adobe Experience Manager as our primary CSM.  While I would have advised going with an open source CMS, working with this Java-based platform definitely taught me a lot about what I like in a CMS and what drives me crazy.  But most importantly, I think it taught me that user experience design does not simply exist in the realm of the public facing features.  A lot of the work I did on this project was improving the tools and settings and control panels of various components to make them more intuitive for our web managers, which, in turn helped produce better content for the users themselves.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: because of policies of the University of Georgia I am unable to directly share the GitHub repository, but the compiled mock ups can be viewed.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/Extension/county-template/&quot; class=&quot;portfolio-button&quot;&gt;View Homepage Mockup&lt;/a&gt;&lt;/p&gt;
-</description>
-        <link>http://johnfrench.xyz/portfolio-items/7-extension.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/7-extension.html</guid>
-        
-        
-        <category>design</category>
-        
-        <category>atom</category>
+        <category>development</category>
         
       </item>
     

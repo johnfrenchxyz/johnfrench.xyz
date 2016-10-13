@@ -13,13 +13,15 @@ excerpt: While I was examining the Tesla Motors website, I found a discrepancy b
 
 There are few companies I respect more than Tesla.  The cars that they create are beautiful in both form and function, and their commitment to fostering sustainable energy is above admirable.  I began following them as an admirer, and now I don't think I will be able to justify buying a new car unless it is a Model 3.  When I find a company that I respect this deeply, I almost immediately start analyzing their website for insights on design, architecture, and best practices.  
 
-While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience.
+While I was examining the Tesla Motors website, I found a discrepancy between the functionality and attention to detail between the sleek desktop site and the functional, but lackluster mobile site.  I set out to solve some of those problems with a UI redesign that would extend up to the desktop and provide a truly responsive and more usable experience. *Note: This is reflective of the Tesla site as of Summer of 2016.*
 
 ## Challenges:
 
-1. Create a more enticing and engaging mobile site that matches the polish of the desktop site.
-2. Improve mobile navigation usability without detracting from the brand identity.
-3. Create a truly responsive template that wouldn’t require completely separate layouts between devices.
+1.  Create a more enticing and engaging mobile site that matches the polish of the desktop site.
+2.  Improve mobile navigation usability without detracting from the brand identity.
+3.  Create a truly responsive template that wouldn’t require completely separate layouts between devices.
+
+<a href="http://adobe.ly/2e2wgyW" target="_blank" class="portfolio-button">View the Tesla UI Design</a>
 
 ## Tesla's Current Mobile Homepage:
 

@@ -1,6 +1,6 @@
 ---
 layout: portfolio-item
-title:  "Walk Georgia"
+title:  "Walk Georgia Design & Development"
 date:   2016-07-25 11:39:32 -0400
 categories: design atom
 img: images/portfolio/walk-georgia/walk-georgia.JPG
