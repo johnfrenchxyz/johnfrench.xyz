@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://johnfrench.xyz/</link>
     <atom:link href="http://johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2016 21:13:51 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2016 21:13:51 -0400</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 15:06:09 -0400</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 15:06:09 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -202,7 +202,9 @@
 
 &lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Design Mockup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Homepage Mockup&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://adobe.ly/2d9CrEd&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View Dashboard UI&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
 
