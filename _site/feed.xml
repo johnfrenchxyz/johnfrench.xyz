@@ -5,8 +5,8 @@
     <description>John French is a Web Designer and Developer based in Athens, Georgia.</description>
     <link>http://johnfrench.xyz/</link>
     <atom:link href="http://johnfrench.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 15:06:09 -0400</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 15:06:09 -0400</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 21:46:24 -0400</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 21:46:24 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -40,30 +40,61 @@
     
     
       <item>
-        <title>Accessibility Checklist UI Design</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/accessibility-checklist/accessibility-checklist.png&quot; alt=&quot;A man is viewing his phone a table. On top of the image is a large logo indicating accessibility&quot; /&gt;&lt;/p&gt;
+        <title>Walk Georgia Design &amp; Development</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
 
-&lt;p&gt;This is a big passion project of mine.  There are a lot of tools out there that test your site for speed, mobile-friendliness, or security… but there are not as many open source tools that test how well your site conforms to accessibility requirements.  Furthermore, there seems to be an ideological divide in the industry between beautiful design and inclusive design - so one of my goals for this project was to build a beautiful interface to show that the two don’t have to be mutually exclusive.&lt;/p&gt;
+&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://adobe.ly/2dZXndX&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View the Accessibility Checklist UI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
 
-&lt;h2 id=&quot;progress&quot;&gt;Progress:&lt;/h2&gt;
+&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
+  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
+  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;This project stems from an earlier project I worked on that was a simple checklist.  I created a site that had all the current WCAG standards in a list/card format where designers could use it as an online checklist.  But, to me, designing the tool in that way added to the paradigm of accessibility as “another thing designers have to worry about” and that is the last thing I wanted to communicate.&lt;/p&gt;
+&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
 
-&lt;p&gt;I thought instead it would be more helpful to build a tool that checks a user’s site automatically, and then gives them the resources to take the matter into their own hands.  The methodology draws inspiration from the AXE plugin for Google Chrome, which is an extremely helpful tool for doing Accessibility audits.&lt;/p&gt;
+&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
 
-&lt;p&gt;This is a preview of the interface I am developing as I continue to make decisions about the stack I want to develop it on.  I’ll be open sourcing it ASAP to get contributions, which will be exciting to see if a community of designers and developers can rally behind yet another new tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Homepage Mockup&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://adobe.ly/2d9CrEd&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View Dashboard UI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
+
+&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
+
+&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/0-accessibility-checklist-design.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/0-accessibility-checklist-design.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/0-walk-georgia.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/0-walk-georgia.html</guid>
         
         
         <category>design</category>
         
-        <category>development</category>
+        <category>atom</category>
         
       </item>
     
@@ -91,6 +122,34 @@
 </description>
         <link>http://johnfrench.xyz/portfolio-items/1-netc.html</link>
         <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/1-netc.html</guid>
+        
+        
+        <category>design</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Accessibility Checklist UI Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/accessibility-checklist/accessibility-checklist.png&quot; alt=&quot;A man is viewing his phone a table. On top of the image is a large logo indicating accessibility&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
+
+&lt;p&gt;This is a big passion project of mine.  There are a lot of tools out there that test your site for speed, mobile-friendliness, or security… but there are not as many open source tools that test how well your site conforms to accessibility requirements.  Furthermore, there seems to be an ideological divide in the industry between beautiful design and inclusive design - so one of my goals for this project was to build a beautiful interface to show that the two don’t have to be mutually exclusive.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adobe.ly/2dZXndX&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View the Accessibility Checklist UI&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;progress&quot;&gt;Progress:&lt;/h2&gt;
+
+&lt;p&gt;This project stems from an earlier project I worked on that was a simple checklist.  I created a site that had all the current WCAG standards in a list/card format where designers could use it as an online checklist.  But, to me, designing the tool in that way added to the paradigm of accessibility as “another thing designers have to worry about” and that is the last thing I wanted to communicate.&lt;/p&gt;
+
+&lt;p&gt;I thought instead it would be more helpful to build a tool that checks a user’s site automatically, and then gives them the resources to take the matter into their own hands.  The methodology draws inspiration from the AXE plugin for Google Chrome, which is an extremely helpful tool for doing Accessibility audits.&lt;/p&gt;
+
+&lt;p&gt;This is a preview of the interface I am developing as I continue to make decisions about the stack I want to develop it on.  I’ll be open sourcing it ASAP to get contributions, which will be exciting to see if a community of designers and developers can rally behind yet another new tool.&lt;/p&gt;
+</description>
+        <link>http://johnfrench.xyz/portfolio-items/2-accessibility-checklist-design.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/2-accessibility-checklist-design.html</guid>
         
         
         <category>design</category>
@@ -145,8 +204,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/portfolio/caes/caes-components.png&quot; alt=&quot;A screenshot of the CAES Event Sidebar Component&quot; class=&quot;center-img&quot; /&gt;&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/2-caes.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/2-caes.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/3-caes.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/3-caes.html</guid>
         
         
         <category>design</category>
@@ -171,72 +230,13 @@
 
 &lt;p&gt;You can &lt;a href=&quot;https://oakhouse.bandcamp.com/releases&quot;&gt;listen to their music here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <link>http://johnfrench.xyz/portfolio-items/3-oak-house.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/3-oak-house.html</guid>
+        <link>http://johnfrench.xyz/portfolio-items/4-oak-house.html</link>
+        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/4-oak-house.html</guid>
         
         
         <category>design</category>
         
         <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>Walk Georgia Design &amp; Development</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/walk-georgia.JPG&quot; alt=&quot;A man on a hike stands tall on top of a mountain&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description:&lt;/h2&gt;
-
-&lt;p&gt;Walk Georgia was a program developed in 2007 to help educate the general population about healthy living and exercise.  After seven years of existence, the program received a grant from the Coca Cola Foundation to expand it’s reach.  I was hired as the lead Web Designer for the project and was tasked with completely reimagining it from the ground up.  The result was a 1,000% (yes, one thousand) increase in our total number of active users.&lt;/p&gt;
-
-&lt;p&gt;After my work on this program, I was promoted to be lead Web Developer for the University of Georgia’s College of Agricultural &amp;amp; Environmental Sciences.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenges&quot;&gt;The Challenges:&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;We needed to dig through almost a decade of history and user response to the Walk Georgia site to determine the features users liked the most, what was missing that they wanted, etc.&lt;/li&gt;
-  &lt;li&gt;Rethink the mechanics of the entire program, propose an improved platform, and then start the design and development process.&lt;/li&gt;
-  &lt;li&gt;The development process included coming up with a way to measure and compare exercises that are categorically different like 30 minutes of running versus 30 minutes of yoga.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-design&quot;&gt;The Design:&lt;/h2&gt;
-
-&lt;p&gt;One of the most important factors in the update was making a website that people enjoyed using.  The tech market is full of fitness tracking website and apps, so it was very important that we make design a priority and find our niche.  I made the design sleek, modern, and responsive.  The grant allotted the budget for a web app alone, so I wanted to make sure that the web app would be as enjoyable to use as a native app.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://johnfrenchxyz.github.io/walkgeorgia/&quot; class=&quot;portfolio-button&quot;&gt;View the Homepage Mockup&lt;/a&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://adobe.ly/2d9CrEd&quot; target=&quot;_blank&quot; class=&quot;portfolio-button&quot;&gt;View Dashboard UI&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Because this program was sponsored in part by the University of Georgia, I am unable to share the GitHub repository, but you can view the site by following the link above.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-platform&quot;&gt;The Platform:&lt;/h2&gt;
-
-&lt;p&gt;One of the interesting challenges with fitness tracking was the issue of comparison.  The Walk Georgia program involved virtually “walking” across a map of Georgia.  We decided early on that we wanted users to be able to use earn points for their exercise, and then use the points to travel across the state of Georgia, meet personal goals they have set for themselves in the platform, or compete against friends and family.&lt;/p&gt;
-
-&lt;p&gt;The biggest challenge rested in the diversity of the exercises.  I must give proper credit to the brilliance of my college, Aaron McCoy, for his leadership in the development of this algorithm to compare vastly different exercises.  How do you compare bowling to yardwork? How do you compare pull ups to ice skating? Calories were an easy first attempt, but involve a more complicated formula to determine progress.  After meeting with several health and medical experts through the university, we determined that taking the metabolic equivalent of each exercise (related to the expenditure of energy), and use time, and the perceived difficulty of the activity by the user to award points.  Since nearly every activity known to man has a measureable MET value, we were able to take the most recent and scientifically accurate values and put them in a database of exercises our users could choose from.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-solving&quot;&gt;Problem Solving:&lt;/h2&gt;
-
-&lt;p&gt;Our goal was to increase the userbase of Walk Georgia in order to benefit the overall health of the state.  It became very clear that creating a simple way to track fitness was a good start, but it would only target adults who were already interested in losing weight.  As we consulted with teachers, schools, and youth organizations, we heard time and time again that there was a need for a better tool to motivate students in physical education classes.  We decided to devote a large portion of our development timeline to add features specifically for schools.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/school-group.PNG&quot; alt=&quot;A picture of part of the Walk Georgia interface for school groups&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Using our “Groups” functionality, or simply the ability for users to track their fitness progress together within our platform, we created special tools and measurement metrics for educational institutions.  Administrators could create groups for the whole school system, individual schools, or even individual classes.  What we saw was schools creating large groups and allowing the various P.E. classes to compete for prizes.  We added the ability for P.E. teachers to log activity for the entire class easily, and had special tracking reports they could generate to help keep track of progress.  If they wanted to add student activity individually, they could easily do that as well.  The adoption of Walk Georgia into physical education programs was a source of pride and accomplishment for our very small team - just to see our platform benefitting the lives of children.&lt;/p&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
-
-&lt;p&gt;In addition to the work we did on fitness tracking systems and the social aspect of the platform, we wanted it to be an educational resource as well.  Our research indicated that many people in the state made dietary decisions based on very little accurate information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/walk-georgia/fitness-tips.png&quot; alt=&quot;The Walk Georgia fitness tips section&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So, it was a goal of the platform to include healthy recipes and fitness tips alongside the fitness tracking platform.  Our main audience and user base was largely people who were resistant to exercise initially, so all of our resources attempted to start at the level of a beginner.  Many alternative fitness tracking systems see the physically active as their target audience.  While this makes sense from a marketing standpoint, it fails to truly benefit those who need it most, which was always the main thrust of Walk Georgia.&lt;/p&gt;
-</description>
-        <link>http://johnfrench.xyz/portfolio-items/4-walk-georgia.html</link>
-        <guid isPermaLink="true">http://johnfrench.xyz/portfolio-items/4-walk-georgia.html</guid>
-        
-        
-        <category>design</category>
-        
-        <category>atom</category>
         
       </item>
     
@@ -326,7 +326,7 @@
   &lt;li&gt;Design the CMS experience to be as user-friendly as possible, especially for people who have no web design or development experience.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/portfolio/extension/county-template.png&quot; alt=&quot;the UGA extension county template&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://johnfrenchxyz.github.io/UGA/Extension/county-template/&quot; class=&quot;portfolio-button&quot;&gt;View the Homepage Design&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;flexible-templating&quot;&gt;Flexible Templating:&lt;/h2&gt;
 

@@ -23,7 +23,7 @@ In a short study we conducted after the completion of redesign, we discovered th
 2.  Develop centrally controlled “starter” content, in the event that a county office doesn’t have the content of their own, or the staff to be updating content frequently.
 3.  Design the CMS experience to be as user-friendly as possible, especially for people who have no web design or development experience.
 
-![the UGA extension county template]( {{site.baseurl}}/images/portfolio/extension/county-template.png )
+<a href="http://johnfrenchxyz.github.io/UGA/Extension/county-template/" class="portfolio-button">View the Homepage Design</a>
 
 ## Flexible Templating:
 
